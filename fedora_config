@@ -1,0 +1,28 @@
+[main]
+workers = 8
+output_dir = /home/fedora-master/data/repos/fedora/latest
+releasever=28
+basearch=x86_64
+
+[sources.fedora]
+type=repofile
+repofile=fedora.repo
+constraints=fedora_constraints
+releasever=28
+basearch=x86_64
+
+[sources.overrides]
+type=repofile
+repofile=overrides-fedora-28.repo
+constraints=overrides_fedora_constraints
+releasever=28
+basearch=x86_64
+
+[sources.koji]
+type=koji
+profile=koji
+constraints=koji_constraints
+
+[masher]
+opts=-v --xz
+workers=6

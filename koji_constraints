@@ -1,0 +1,11 @@
+---
+builds:
+  - python-sphinx-1.6.5-2.fc28
+
+arches:
+  - noarch
+  - i686
+  - x86_64
+
+exclude:
+  - python-sphinx-latex
