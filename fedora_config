@@ -1,6 +1,6 @@
 [main]
 workers = 8
-output_dir = /home/fedora-master/data/repos/fedora/latest
+output_dir = /home/fedora-master/data/repos/stable-base/latest
 releasever=28
 basearch=x86_64
 
