@@ -611,6 +611,7 @@ includes:
   - python2-jsonschema
   - python2-jwt
   - python2-kafka
+  - python2-kerberos
   - python2-keyczar
   - python2-keyring
   - python2-kiwisolver
@@ -689,6 +690,7 @@ includes:
   - python2-redis
   - python2-repoze-lru
   - python2-requests
+  - python2-requests-kerberos
   - python2-requests-mock
   - python2-rfc3986
   - python2-routes
@@ -704,6 +706,7 @@ includes:
   - python2-six
   - python2-smmap
   - python2-snowballstemmer
+  - python2-sphinxcontrib-apidoc
   - python2-sphinxcontrib-websupport
   - python2-sphinx_rtd_theme
   - python2-sphinx-theme-alabaster
@@ -810,6 +813,7 @@ includes:
   - python3-jsonschema
   - python3-jwt
   - python3-kafka
+  - python3-kerberos
   - python3-keyring
   - python3-kombu
   - python3-libcomps
@@ -871,6 +875,7 @@ includes:
   - python3-redis
   - python3-repoze-lru
   - python3-requests
+  - python3-requests-kerberos
   - python3-requests-mock
   - python3-rfc3986
   - python3-routes
