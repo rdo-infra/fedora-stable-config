@@ -24,5 +24,5 @@ profile=koji
 constraints=koji_constraints
 
 [masher]
-opts=-v --xz
+opts=-v --xz -g comps-f28.xml --retain-old-md=10
 workers=6

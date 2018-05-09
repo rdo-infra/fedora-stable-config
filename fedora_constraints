@@ -15,6 +15,7 @@ includes:
   - audit
   - audit-libs
   - augeas-libs
+  - authconfig
   - avahi-libs
   - basesystem
   - bash
@@ -96,6 +97,7 @@ includes:
   - dwz
   - e2fsprogs
   - e2fsprogs-libs
+  - ebtables
   - ed
   - elfutils
   - elfutils-default-yama-scope
@@ -118,6 +120,8 @@ includes:
   - findutils
   - fipscheck
   - fipscheck-lib
+  - firewalld
+  - firewalld-filesystem
   - fontawesome-fonts
   - fontawesome-fonts-web
   - fontconfig
@@ -200,6 +204,8 @@ includes:
   - ipcalc
   - iproute
   - iproute-tc
+  - ipset
+  - ipset-libs
   - iptables
   - iptables-libs
   - iputils
@@ -789,6 +795,7 @@ includes:
   - python3-eventlet
   - python3-extras
   - python3-fasteners
+  - python3-firewall
   - python3-fixtures
   - python3-flake8
   - python3-funcsigs
@@ -888,12 +895,15 @@ includes:
   - python3-setuptools
   - python3-simplejson
   - python3-six
+  - python3-slip
+  - python3-slip-dbus
   - python3-smartcols
   - python3-snowballstemmer
   - python3-sphinxcontrib-websupport
   - python3-sphinx_rtd_theme
   - python3-sphinx-theme-alabaster
   - python3-sqlalchemy
+  - python3-sssdconfig
   - python3-statsd
   - python3-stestr
   - python3-stevedore
