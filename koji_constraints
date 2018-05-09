@@ -1,6 +1,7 @@
 ---
 builds:
   - python-sphinx-1.6.5-2.fc28
+  - python-sphinxcontrib-apidoc-0.2.1-6.fc28
 
 arches:
   - noarch

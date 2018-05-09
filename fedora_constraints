@@ -706,7 +706,6 @@ includes:
   - python2-six
   - python2-smmap
   - python2-snowballstemmer
-  - python2-sphinxcontrib-apidoc
   - python2-sphinxcontrib-websupport
   - python2-sphinx_rtd_theme
   - python2-sphinx-theme-alabaster
