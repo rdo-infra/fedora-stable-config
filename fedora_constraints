@@ -829,6 +829,7 @@ includes:
   - python3-mysql
   - python3-netaddr
   - python3-netifaces
+  - python3-nose
   - python3-oauthlib
   - python3-openstackdocstheme
   - python3-packaging
