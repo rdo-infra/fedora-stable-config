@@ -553,6 +553,7 @@ includes:
   - python2-bson
   - python2-cachetools
   - python2-cairo
+  - python2-certifi
   - python2-cffi
   - python2-chardet
   - python2-cliff
@@ -755,6 +756,7 @@ includes:
   - python3-bson
   - python3-cachetools
   - python3-cairo
+  - python3-certifi
   - python3-cffi
   - python3-chardet
   - python3-cliff
