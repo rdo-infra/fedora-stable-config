@@ -1,0 +1,4 @@
+Note that currently, when running build-image.sh in a fedora virtual machine
+with nested virtualization enabled, kernel 4.13.9-300.fc27.x86_64 must be used
+as a bug has been introduced in later kernels preventing this to work fine.
+

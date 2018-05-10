@@ -16,6 +16,9 @@ includes:
   - audit-libs
   - augeas-libs
   - authconfig
+  - authselect
+  - authselect-compat
+  - authselect-libs
   - avahi-libs
   - basesystem
   - bash
@@ -227,8 +230,6 @@ includes:
   - kbd
   - kbd-legacy
   - kbd-misc
-  - kernel-core
-  - kernel-core
   - kernel-core
   - kernel-headers
   - keyutils-libs

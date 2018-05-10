@@ -1,0 +1,12 @@
+<template>
+    <name>fedora-28</name>
+    <os>
+        <name>Fedora</name>
+        <version>28</version>
+        <arch>x86_64</arch>
+        <install type='url'>
+            <url>http://192.168.122.1/fedora-stable</url>
+        </install>
+    </os>
+</template>
+
