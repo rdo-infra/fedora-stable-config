@@ -1,5 +1,7 @@
 ---
 builds:
+  - python-openstackdocstheme-1.20.1-1.fc29
+  - python-openstack-doc-tools-1.8.0-1.fc29
   - python-sphinx-1.6.5-2.fc28
   - python-sphinxcontrib-apidoc-0.2.1-6.fc28
 

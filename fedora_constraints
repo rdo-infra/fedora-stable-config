@@ -589,6 +589,7 @@ includes:
   - python2-dbus
   - python2-ddt
   - python2-decorator
+  - python2-demjson
   - python2-deprecation
   - python2-devel
   - python2-docker
@@ -670,7 +671,6 @@ includes:
   - python2-numpy-f2py
   - python2-oauthlib
   - python2-olefile
-  - python2-openstackdocstheme
   - python2-oslo-i18n
   - python2-packaging
   - python2-paramiko
@@ -815,6 +815,7 @@ includes:
   - python3-dbus
   - python3-ddt
   - python3-decorator
+  - python3-demjson
   - python3-deprecation
   - python3-devel
   - python3-dnf
@@ -885,7 +886,6 @@ includes:
   - python3-netifaces
   - python3-nose
   - python3-oauthlib
-  - python3-openstackdocstheme
   - python3-oslo-i18n
   - python3-packaging
   - python3-paste
