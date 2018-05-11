@@ -22,6 +22,7 @@ includes:
   - avahi-libs
   - basesystem
   - bash
+  - bash-completion
   - bc
   - bind-export-libs
   - binutils
@@ -600,6 +601,7 @@ includes:
   - python2-devel
   - python2-docker
   - python2-docker-pycreds
+  - python2-docopt
   - python2-docutils
   - python2-dogpile-cache
   - python2-dulwich
@@ -639,6 +641,7 @@ includes:
   - python2-jsonschema
   - python2-jwt
   - python2-kafka
+  - python2-kazoo
   - python2-kerberos
   - python2-keyczar
   - python2-keyring
@@ -677,6 +680,7 @@ includes:
   - python2-numpy-f2py
   - python2-oauthlib
   - python2-olefile
+  - python2-openvswitch
   - python2-oslo-i18n
   - python2-packaging
   - python2-paramiko
@@ -686,6 +690,7 @@ includes:
   - python2-pbr
   - python2-pecan
   - python2-pep8
+  - python2-pygal
   - python2-pifpaf
   - python2-pika
   - python2-pika-pool
@@ -707,6 +712,7 @@ includes:
   - python2-pyflakes
   - python2-pyghmi
   - python2-pygments
+  - python2-pykwalify
   - python2-pymongo
   - python2-PyMySQL
   - python2-pynacl
@@ -748,6 +754,7 @@ includes:
   - python2-sphinx_rtd_theme
   - python2-sphinx-theme-alabaster
   - python2-sqlalchemy
+  - python2-sqlalchemy-utils
   - python2-sqlparse
   - python2-statsd
   - python2-stestr
@@ -772,6 +779,7 @@ includes:
   - python2-unittest2
   - python2-urllib3
   - python2-vine
+  - python2-voluptuous
   - python2-waitress
   - python2-warlock
   - python2-weakrefmethod
@@ -796,6 +804,7 @@ includes:
   - python3-attrs
   - python3-audit
   - python3-babel
+  - python3-bcrypt
   - python3-beaker
   - python3-beautifulsoup4
   - python3-betamax
@@ -828,6 +837,7 @@ includes:
   - python3-dnf-plugins-core
   - python3-dnf-plugins-extras-common
   - python3-dnf-plugin-system-upgrade
+  - python3-docopt
   - python3-docutils
   - python3-dogpile-cache
   - python3-dulwich
@@ -847,6 +857,7 @@ includes:
   - python3-greenlet
   - python3-hawkey
   - python3-html5lib
+  - python3-httplib2
   - python3-idle
   - python3-idna
   - python3-imagesize
@@ -892,8 +903,10 @@ includes:
   - python3-netifaces
   - python3-nose
   - python3-oauthlib
+  - python3-openvswitch
   - python3-oslo-i18n
   - python3-packaging
+  - python3-paramiko
   - python3-paste
   - python3-paste-deploy
   - python3-pbr
@@ -915,9 +928,12 @@ includes:
   - python3-pycparser
   - python3-pycurl
   - python3-pyflakes
+  - python3-pygal
   - python3-pygments
+  - python3-pykwalify
   - python3-pymongo
   - python3-PyMySQL
+  - python3-pynacl
   - python3-pyngus
   - python3-pyOpenSSL
   - python3-pyparsing
@@ -981,6 +997,7 @@ includes:
   - python3-unittest2
   - python3-urllib3
   - python3-vine
+  - python3-voluptuous
   - python3-waitress
   - python3-warlock
   - python3-webencodings
