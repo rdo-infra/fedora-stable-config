@@ -4,6 +4,7 @@ includes:
   - adobe-mappings-cmap
   - adobe-mappings-cmap-deprecated
   - adobe-mappings-pdf
+  - alsa-lib
   - annobin
   - ansible
   - armadillo
@@ -37,6 +38,7 @@ includes:
   - boost-regex
   - boost-system
   - boost-thread
+  - btrfs-progs
   - bzip2
   - bzip2-libs
   - ca-certificates
@@ -51,9 +53,11 @@ includes:
   - chrony
   - cloud-init
   - cloud-utils-growpart
+  - cmake-filesystem
   - compat-openssl10
   - container-selinux
   - container-storage-setup
+  - copy-jdk-configs
   - coreutils
   - coreutils-common
   - cpio
@@ -61,6 +65,9 @@ includes:
   - cpp-hocon
   - cracklib
   - cracklib-dicts
+  - createrepo
+  - createrepo_c
+  - createrepo_c-libs
   - criu
   - cronie
   - cronie-anacron
@@ -80,6 +87,7 @@ includes:
   - dejavu-fonts-common
   - dejavu-sans-fonts
   - deltarpm
+  - desktop-file-utils
   - device-mapper
   - device-mapper-event
   - device-mapper-event-libs
@@ -91,6 +99,7 @@ includes:
   - dhcp-common
   - dhcp-libs
   - diffutils
+  - distribution-gpg-keys
   - dkms
   - dnf
   - dnf-conf
@@ -103,6 +112,7 @@ includes:
   - docker-rhel-push-plugin
   - dracut
   - dracut-config-generic
+  - drpm
   - dulwich-core
   - dwz
   - e2fsprogs
@@ -115,10 +125,13 @@ includes:
   - elfutils-libelf-devel
   - elfutils-libs
   - emacs-filesystem
+  - enchant
   - esmtp
   - ethtool
   - expat
   - facter
+  - fakeroot
+  - fakeroot-libs
   - fedora-gpg-keys
   - fedora-obsolete-packages
   - fedora-release
@@ -207,6 +220,8 @@ includes:
   - hiera
   - hostname
   - http-parser
+  - hunspell
+  - hunspell-en-US
   - ilmbase
   - ima-evm-utils
   - ImageMagick
@@ -227,6 +242,10 @@ includes:
   - isns-utils-libs
   - jansson
   - jasper-libs
+  - java-1.8.0-openjdk
+  - java-1.8.0-openjdk-headless
+  - java-openjdk-headless
+  - javapackages-tools
   - jbig2dec-libs
   - jbigkit-libs
   - jq
@@ -240,9 +259,11 @@ includes:
   - kernel-headers
   - kernel-modules
   - keyutils-libs
+  - keyutils-libs-devel
   - kmod
   - kmod-libs
   - kpartx
+  - krb5-devel
   - krb5-libs
   - lapack
   - lasi
@@ -268,6 +289,7 @@ includes:
   - libcgroup
   - libcollection
   - libcom_err
+  - libcom_err-devel
   - libcomps
   - libcroco
   - libcurl
@@ -281,13 +303,16 @@ includes:
   - libesmtp
   - libfdisk
   - libffi
+  - libffi-devel
   - libfontenc
   - libgcc
   - libgcrypt
+  - libgcrypt-devel
   - libgeotiff
   - libgfortran
   - libgomp
   - libgpg-error
+  - libgpg-error-devel
   - libgs
   - libgta
   - libICE
@@ -300,6 +325,7 @@ includes:
   - libini_config
   - libipt
   - libjpeg-turbo
+  - libkadm5
   - libkml
   - libksba
   - libldb
@@ -337,10 +363,12 @@ includes:
   - libseccomp
   - libsecret
   - libselinux
+  - libselinux-devel
   - libselinux-ruby
   - libselinux-utils
   - libsemanage
   - libsepol
+  - libsepol-devel
   - libsigsegv
   - libSM
   - libsmartcols
@@ -374,6 +402,7 @@ includes:
   - libutempter
   - libuuid
   - libverto
+  - libverto-devel
   - libvirt-libs
   - libwebp
   - libwmf-lite
@@ -391,22 +420,28 @@ includes:
   - libXext
   - libXfixes
   - libXft
+  - libXfont
   - libXi
   - libXinerama
   - libxkbcommon
   - libxml2
+  - libxml2-devel
   - libXmu
   - libXpm
   - libXrandr
   - libXrender
   - libxslt
+  - libxslt-devel
   - libXt
+  - libXtst
   - libXxf86misc
   - libXxf86vm
   - libyaml
+  - libyaml-devel
   - libzstd
   - linux-atm-libs
   - linux-firmware
+  - lksctp-tools
   - Lmod
   - lsof
   - lttng-ust
@@ -420,6 +455,7 @@ includes:
   - lvm2
   - lvm2-libs
   - lz4-libs
+  - lzo
   - m4
   - mailx
   - make
@@ -427,6 +463,8 @@ includes:
   - mariadb-connector-c
   - mcpp
   - minizip
+  - mock
+  - mock-core-configs
   - mozjs52
   - mpfr
   - mtools
@@ -469,6 +507,7 @@ includes:
   - openssh-clients
   - openssh-server
   - openssl
+  - openssl-devel
   - openssl-libs
   - openssl-pkcs11
   - openvswitch
@@ -483,6 +522,9 @@ includes:
   - patch
   - pcre
   - pcre2
+  - pcre2-devel
+  - pcre2-utf16
+  - pcre2-utf32
   - perl-Carp
   - perl-Config-General
   - perl-constant
@@ -557,6 +599,7 @@ includes:
   - publicsuffix-list-dafsa
   - puppet
   - pycryptopp
+  - pyliblzma
   - python-oslo-i18n-lang
   - python2
   - python2-alembic
@@ -597,6 +640,7 @@ includes:
   - python2-dbus
   - python2-ddt
   - python2-decorator
+  - python2-deltarpm
   - python2-demjson
   - python2-deprecation
   - python2-devel
@@ -622,12 +666,14 @@ includes:
   - python2-GitPython
   - python2-gobject
   - python2-gobject-base
+  - python2-gpg
   - python2-graphviz
   - python2-greenlet
   - python2-html5lib
   - python2-httplib2
   - python2-idna
   - python2-imagesize
+  - python2-iniparse
   - python2-inotify
   - python2-ipaddr
   - python2-ipaddress
@@ -646,12 +692,14 @@ includes:
   - python2-kerberos
   - python2-keyczar
   - python2-keyring
+  - python2-kitchen
   - python2-kiwisolver
   - python2-kombu
   - python2-libs
   - python2-libselinux
   - python2-libsemanage
   - python2-libvirt
+  - python2-libxml2
   - python2-linecache2
   - python2-logutils
   - python2-lxml
@@ -738,6 +786,7 @@ includes:
   - python2-retrying
   - python2-rfc3986
   - python2-routes
+  - python2-rpm
   - python2-rpm-macros
   - python2-scipy
   - python2-SecretStorage
@@ -779,9 +828,11 @@ includes:
   - python2-ujson
   - python2-unicodecsv
   - python2-unittest2
+  - python2-urlgrabber
   - python2-urllib3
   - python2-vine
   - python2-voluptuous
+  - python2-virtualenv
   - python2-waitress
   - python2-warlock
   - python2-weakrefmethod
@@ -837,6 +888,7 @@ includes:
   - python3-demjson
   - python3-deprecation
   - python3-devel
+  - python3-distro
   - python3-dnf
   - python3-dnf-plugins-core
   - python3-dnf-plugins-extras-common
@@ -846,6 +898,7 @@ includes:
   - python3-dogpile-cache
   - python3-dulwich
   - python3-editor
+  - python3-enchant
   - python3-eventlet
   - python3-extras
   - python3-fasteners
@@ -891,6 +944,7 @@ includes:
   - python3-linecache2
   - python3-logutils
   - python3-lxml
+  - python3-magic
   - python3-mako
   - python3-markupsafe
   - python3-matplotlib
@@ -1012,6 +1066,7 @@ includes:
   - python3-urllib3
   - python3-vine
   - python3-voluptuous
+  - python3-virtualenv
   - python3-waitress
   - python3-warlock
   - python3-webencodings
@@ -1043,12 +1098,15 @@ includes:
   - rpm
   - rpm-build
   - rpm-build-libs
+  - rpmdevtools
   - rpm-libs
+  - rpmlint
   - rpm-plugin-selinux
   - rpm-plugin-systemd-inhibit
   - rsync
   - ruby
   - ruby-augeas
+  - ruby-devel
   - ruby-facter
   - rubygem-bigdecimal
   - rubygem-did_you_mean
@@ -1079,6 +1137,7 @@ includes:
   - socat
   - sos
   - spax
+  - sqlite
   - sqlite-libs
   - sshpass
   - sssd-client
@@ -1121,7 +1180,9 @@ includes:
   - traceroute
   - trousers
   - trousers-lib
+  - ttmkfdir
   - tzdata
+  - tzdata-java
   - unixODBC
   - unzip
   - uriparser
@@ -1137,6 +1198,7 @@ includes:
   - urw-base35-p052-fonts
   - urw-base35-standard-symbols-ps-fonts
   - urw-base35-z003-fonts
+  - usermode
   - userspace-rcu
   - util-linux
   - util-linux-user
@@ -1144,16 +1206,23 @@ includes:
   - web-assets-filesystem
   - wget
   - which
+  - xemacs-filesystem
   - xerces-c
   - xfsprogs
   - xkeyboard-config
   - xorg-x11-fonts-ISO8859-1-100dpi
+  - xorg-x11-fonts-Type1
   - xorg-x11-font-utils
   - xorg-x11-server-utils
   - xz
+  - xz-devel
+  - yum-plugin-priorities
+  - yum-utils
   - xz-libs
   - yajl
   - yaml-cpp
+  - yum
+  - yum-metadata-parser
   - zeromq
   - zip
   - zlib
