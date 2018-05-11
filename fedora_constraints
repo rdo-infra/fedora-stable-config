@@ -147,6 +147,7 @@ includes:
   - gcc
   - gd
   - gdal-libs
+  - gdal-python3
   - gdb-headless
   - gdbm
   - gdbm-libs
@@ -750,6 +751,7 @@ includes:
   - python2-six
   - python2-smmap
   - python2-snowballstemmer
+  - python2-sphinxcontrib-httpdomain
   - python2-sphinxcontrib-websupport
   - python2-sphinx_rtd_theme
   - python2-sphinx-theme-alabaster
@@ -792,6 +794,7 @@ includes:
   - python2-wsgi_intercept
   - python2-xpyb
   - python2-yaql
+  - python2-zake
   - python2-zmq
   - python2-zope-event
   - python2-zope-interface
@@ -825,6 +828,7 @@ includes:
   - python3-crypto
   - python3-cryptography
   - python3-cssselect
+  - python3-cycler
   - python3-d2to1
   - python3-dateutil
   - python3-dbus
@@ -889,6 +893,8 @@ includes:
   - python3-lxml
   - python3-mako
   - python3-markupsafe
+  - python3-matplotlib
+  - python3-matplotlib-tk
   - python3-mccabe
   - python3-memcached
   - python3-migrate
@@ -901,7 +907,13 @@ includes:
   - python3-mysql
   - python3-netaddr
   - python3-netifaces
+  - python3-networkx
+  - python3-networkx-core
+  - python3-networkx-drawing
+  - python3-networkx-geo
   - python3-nose
+  - python3-numpy
+  - python3-numpy-f2py
   - python3-oauthlib
   - python3-openvswitch
   - python3-oslo-i18n
@@ -927,6 +939,7 @@ includes:
   - python3-pycodestyle
   - python3-pycparser
   - python3-pycurl
+  - python3-pydotplus
   - python3-pyflakes
   - python3-pygal
   - python3-pygments
@@ -958,6 +971,7 @@ includes:
   - python3-rpm-generators
   - python3-rpm-macros
   - python3-rsa
+  - python3-scipy
   - python3-SecretStorage
   - python3-semantic_version
   - python3-service-identity
@@ -1007,6 +1021,7 @@ includes:
   - python3-wrapt
   - python3-wsgi_intercept
   - python3-yaql
+  - python3-zake
   - python3-zmq
   - python3-zope-event
   - python3-zope-interface
