@@ -933,6 +933,7 @@ includes:
   - python3-kafka
   - python3-kerberos
   - python3-keyring
+  - python3-kiwisolver
   - python3-kombu
   - python3-libcomps
   - python3-librepo
