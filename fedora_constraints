@@ -300,6 +300,7 @@ includes:
   - libdhash
   - libdnf
   - libedit
+  - liberasurecode
   - libesmtp
   - libfdisk
   - libffi
@@ -739,6 +740,7 @@ includes:
   - python2-pbr
   - python2-pecan
   - python2-pep8
+  - python2-pyeclib
   - python2-pygal
   - python2-pifpaf
   - python2-pika
