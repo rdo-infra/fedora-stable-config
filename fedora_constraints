@@ -52,6 +52,7 @@ includes:
   - chkconfig
   - chrony
   - cloud-init
+  - cloud-utils
   - cloud-utils-growpart
   - cmake-filesystem
   - compat-openssl10
@@ -128,6 +129,7 @@ includes:
   - enchant
   - esmtp
   - ethtool
+  - euca2ools
   - expat
   - facter
   - fakeroot
@@ -164,6 +166,7 @@ includes:
   - gdb-headless
   - gdbm
   - gdbm-libs
+  - gdisk
   - gdk-pixbuf2
   - gdk-pixbuf2-modules
   - GeoIP
@@ -631,6 +634,7 @@ includes:
   - python2-colorama
   - python2-configparser
   - python2-contextlib2
+  - python2-coverage
   - python2-croniter
   - python2-crypto
   - python2-cryptography
@@ -751,6 +755,7 @@ includes:
   - python2-ply
   - python2-policycoreutils
   - python2-prettytable
+  - python2-progressbar
   - python2-psutil
   - python2-psycopg2
   - python2-py
@@ -782,6 +787,7 @@ includes:
   - python2-qpid-proton
   - python2-redis
   - python2-repoze-lru
+  - python2-requestbuilder
   - python2-requests
   - python2-requests-kerberos
   - python2-requests-mock
@@ -846,6 +852,7 @@ includes:
   - python2-wrapt
   - python2-wsgi_intercept
   - python2-xpyb
+  - python2-XStatic
   - python2-yaql
   - python2-zake
   - python2-zmq
