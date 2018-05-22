@@ -123,6 +123,7 @@ includes:
   - diffutils
   - distribution-gpg-keys
   - dkms
+  - dmidecode
   - dnf
   - dnf-conf
   - dnf-plugins-core
@@ -156,6 +157,7 @@ includes:
   - facter
   - fakeroot
   - fakeroot-libs
+  - fdupes
   - fedora-gpg-keys
   - fedora-obsolete-packages
   - fedora-release
