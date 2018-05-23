@@ -788,6 +788,7 @@ includes:
   - python2-pluggy
   - python2-ply
   - python2-policycoreutils
+  - python2-positional
   - python2-prettytable
   - python2-progressbar
   - python2-psutil
