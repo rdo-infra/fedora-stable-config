@@ -693,7 +693,6 @@ includes:
   - python2-editor
   - python2-elasticsearch
   - python2-enum34
-  - python2-eventlet
   - python2-extras
   - python2-fasteners
   - python2-fixtures
@@ -949,7 +948,6 @@ includes:
   - python3-editor
   - python3-elasticsearch
   - python3-enchant
-  - python3-eventlet
   - python3-extras
   - python3-fasteners
   - python3-firewall
