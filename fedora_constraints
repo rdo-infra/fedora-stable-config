@@ -81,6 +81,7 @@ includes:
   - copy-jdk-configs
   - coreutils
   - coreutils-common
+  - coreutils-single
   - cpio
   - cpp
   - cpp-hocon
@@ -193,6 +194,7 @@ includes:
   - gdisk
   - gdk-pixbuf2
   - gdk-pixbuf2-modules
+  - generic-release
   - GeoIP
   - GeoIP-GeoLite-data
   - geos
@@ -321,6 +323,7 @@ includes:
   - libcomps
   - libcroco
   - libcurl
+  - libcurl-minimal
   - libdap
   - libdatrie
   - libdb
@@ -345,8 +348,8 @@ includes:
   - libgpg-error-devel
   - libgs
   - libgta
-  - libICE
   - libibverbs
+  - libICE
   - libicu
   - libicu-devel
   - libidn
@@ -451,8 +454,8 @@ includes:
   - libXdamage
   - libXext
   - libXfixes
-  - libXft
   - libXfont
+  - libXft
   - libXi
   - libXinerama
   - libxkbcommon
@@ -637,7 +640,6 @@ includes:
   - puppet
   - pycryptopp
   - pyliblzma
-  - python-oslo-i18n-lang
   - python2
   - python2-alembic
   - python2-amqp
@@ -661,9 +663,9 @@ includes:
   - python2-certifi
   - python2-cffi
   - python2-chardet
+  - python2-click
   - python2-cliff
   - python2-cmd2
-  - python2-click
   - python2-colorama
   - python2-configparser
   - python2-contextlib2
@@ -778,8 +780,6 @@ includes:
   - python2-pbr
   - python2-pecan
   - python2-pep8
-  - python2-pyeclib
-  - python2-pygal
   - python2-pifpaf
   - python2-pika
   - python2-pika-pool
@@ -799,7 +799,9 @@ includes:
   - python2-pycparser
   - python2-pycurl
   - python2-pydotplus
+  - python2-pyeclib
   - python2-pyflakes
+  - python2-pygal
   - python2-pyghmi
   - python2-pygments
   - python2-pykwalify
@@ -875,8 +877,8 @@ includes:
   - python2-urlgrabber
   - python2-urllib3
   - python2-vine
-  - python2-voluptuous
   - python2-virtualenv
+  - python2-voluptuous
   - python2-waitress
   - python2-warlock
   - python2-weakrefmethod
@@ -930,6 +932,7 @@ includes:
   - python3-dbus
   - python3-ddt
   - python3-decorator
+  - python3-defusedxml
   - python3-demjson
   - python3-deprecation
   - python3-devel
@@ -951,6 +954,7 @@ includes:
   - python3-firewall
   - python3-fixtures
   - python3-flake8
+  - python3-freezegun
   - python3-funcsigs
   - python3-future
   - python3-gabbi
@@ -981,6 +985,8 @@ includes:
   - python3-keyring
   - python3-kiwisolver
   - python3-kombu
+  - python3-ldap
+  - python3-ldappool
   - python3-libcomps
   - python3-librepo
   - python3-libs
@@ -1020,6 +1026,7 @@ includes:
   - python3-oslo-i18n
   - python3-packaging
   - python3-paramiko
+  - python3-passlib
   - python3-paste
   - python3-paste-deploy
   - python3-pbr
@@ -1031,9 +1038,10 @@ includes:
   - python3-pluggy
   - python3-ply
   - python3-policycoreutils
+  - python3-positional
   - python3-prettytable
-  - python3-psycopg2
   - python3-psutil
+  - python3-psycopg2
   - python3-py
   - python3-pyasn1
   - python3-pyasn1-modules
@@ -1053,6 +1061,7 @@ includes:
   - python3-pyOpenSSL
   - python3-pyparsing
   - python3-pyroute2
+  - python3-pysaml2
   - python3-pyserial
   - python3-pysocks
   - python3-pytest
@@ -1063,6 +1072,7 @@ includes:
   - python3-qpid-proton
   - python3-redis
   - python3-repoze-lru
+  - python3-repoze-who
   - python3-requests
   - python3-requests-kerberos
   - python3-requests-mock
@@ -1074,6 +1084,7 @@ includes:
   - python3-rpm-macros
   - python3-rsa
   - python3-scipy
+  - python3-scrypt
   - python3-SecretStorage
   - python3-semantic_version
   - python3-service-identity
@@ -1091,6 +1102,7 @@ includes:
   - python3-sphinx_rtd_theme
   - python3-sphinx-theme-alabaster
   - python3-sqlalchemy
+  - python3-sqlparse
   - python3-sssdconfig
   - python3-statsd
   - python3-stestr
@@ -1113,8 +1125,8 @@ includes:
   - python3-unittest2
   - python3-urllib3
   - python3-vine
-  - python3-voluptuous
   - python3-virtualenv
+  - python3-voluptuous
   - python3-waitress
   - python3-warlock
   - python3-webencodings
@@ -1130,6 +1142,7 @@ includes:
   - python3-zope-interface
   - python-matplotlib-data
   - python-matplotlib-data-fonts
+  - python-oslo-i18n-lang
   - python-rpm-macros
   - python-srpm-macros
   - python-systemd-doc
@@ -1266,13 +1279,13 @@ includes:
   - xorg-x11-server-utils
   - xz
   - xz-devel
-  - yum-plugin-priorities
-  - yum-utils
   - xz-libs
   - yajl
   - yaml-cpp
   - yum
   - yum-metadata-parser
+  - yum-plugin-priorities
+  - yum-utils
   - zeromq
   - zip
   - zlib
