@@ -195,6 +195,7 @@ includes:
   - gdk-pixbuf2
   - gdk-pixbuf2-modules
   - generic-release
+  - genisoimage
   - GeoIP
   - GeoIP-GeoLite-data
   - geos
@@ -252,6 +253,7 @@ includes:
   - http-parser
   - hunspell
   - hunspell-en-US
+  - hwdata
   - ilmbase
   - ima-evm-utils
   - ImageMagick
@@ -431,6 +433,7 @@ includes:
   - libtool-ltdl
   - libubsan
   - libunistring
+  - libusal
   - libusb
   - libusbx
   - libuser
@@ -497,6 +500,7 @@ includes:
   - man-db
   - mariadb-connector-c
   - mcpp
+  - mdadm
   - memcached
   - minizip
   - mock
@@ -556,6 +560,8 @@ includes:
   - parted
   - passwd
   - patch
+  - pciutils
+  - pciutils-libs
   - pcre
   - pcre-cpp
   - pcre-devel
