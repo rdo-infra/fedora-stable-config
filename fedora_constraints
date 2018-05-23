@@ -826,6 +826,7 @@ includes:
   - python2-repoze-lru
   - python2-requestbuilder
   - python2-requests
+  - python2-requestsexceptions
   - python2-requests-kerberos
   - python2-requests-mock
   - python2-retrying
@@ -1073,6 +1074,7 @@ includes:
   - python3-repoze-lru
   - python3-repoze-who
   - python3-requests
+  - python3-requestsexceptions
   - python3-requests-kerberos
   - python3-requests-mock
   - python3-retrying
