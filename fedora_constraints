@@ -717,6 +717,7 @@ includes:
   - python2-greenlet
   - python2-html5lib
   - python2-httplib2
+  - python2-icalendar
   - python2-idna
   - python2-imagesize
   - python2-iniparse
@@ -771,6 +772,7 @@ includes:
   - python2-networkx-drawing
   - python2-networkx-geo
   - python2-nose
+  - python2-nose-exclude
   - python2-numpy
   - python2-numpy-f2py
   - python2-oauthlib
@@ -855,6 +857,7 @@ includes:
   - python2-sphinxcontrib-httpdomain
   - python2-sphinxcontrib-websupport
   - python2-sphinx_rtd_theme
+  - python2-sphinx-testing
   - python2-sphinx-theme-alabaster
   - python2-sqlalchemy
   - python2-sqlalchemy-utils
@@ -948,6 +951,8 @@ includes:
   - python3-dnf-plugins-core
   - python3-dnf-plugins-extras-common
   - python3-dnf-plugin-system-upgrade
+  - python3-docker
+  - python3-docker-pycreds
   - python3-docopt
   - python3-docutils
   - python3-dogpile-cache
@@ -971,6 +976,7 @@ includes:
   - python3-hawkey
   - python3-html5lib
   - python3-httplib2
+  - python3-icalendar
   - python3-idle
   - python3-idna
   - python3-imagesize
@@ -1025,6 +1031,7 @@ includes:
   - python3-networkx-drawing
   - python3-networkx-geo
   - python3-nose
+  - python3-nose-exclude
   - python3-numpy
   - python3-numpy-f2py
   - python3-oauthlib
@@ -1107,6 +1114,7 @@ includes:
   - python3-snowballstemmer
   - python3-sphinxcontrib-websupport
   - python3-sphinx_rtd_theme
+  - python3-sphinx-testing
   - python3-sphinx-theme-alabaster
   - python3-sqlalchemy
   - python3-sqlparse
@@ -1138,6 +1146,7 @@ includes:
   - python3-warlock
   - python3-webencodings
   - python3-webob
+  - python3-websocket-client
   - python3-webtest
   - python3-whoosh
   - python3-wrapt
