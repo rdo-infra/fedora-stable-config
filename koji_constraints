@@ -5,6 +5,8 @@ builds:
   - python-sphinx-1.6.5-2.fc28
   - python-sphinxcontrib-apidoc-0.2.1-6.fc28
   - python-eventlet-0.20.1-1.fc27
+  - python-kubernetes-5.0.0-1.fc29
+  - python-pykafka-2.6.0-0.1.dev2.fc28
 
 arches:
   - noarch
