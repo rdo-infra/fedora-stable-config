@@ -6,6 +6,8 @@ includes:
   - adobe-mappings-cmap
   - adobe-mappings-cmap-deprecated
   - adobe-mappings-pdf
+  - adwaita-cursor-theme
+  - adwaita-icon-theme
   - alsa-lib
   - annobin
   - ansible
@@ -15,6 +17,9 @@ includes:
   - atk
   - atlas
   - atomic-registries
+  - at-spi2-atk
+  - at-spi2-core
+  - attr
   - audit
   - audit-libs
   - augeas-libs
@@ -33,6 +38,7 @@ includes:
   - binutils
   - bison
   - blas
+  - bluez-libs
   - boost
   - boost-atomic
   - boost-chrono
@@ -64,6 +70,8 @@ includes:
   - boost-type_erasure
   - boost-wave
   - bridge-utils
+  - brlapi
+  - brltty
   - brotli
   - btrfs-progs
   - bzip2
@@ -74,6 +82,8 @@ includes:
   - capstone
   - c-ares
   - ccache
+  - cdparanoia-libs
+  - celt051
   - cfitsio
   - checkpolicy
   - chkconfig
@@ -85,6 +95,7 @@ includes:
   - clufter-bin
   - clufter-common
   - cmake-filesystem
+  - colord-libs
   - compat-openssl10
   - container-selinux
   - container-storage-setup
@@ -144,6 +155,7 @@ includes:
   - dnf-utils
   - dnf-yum
   - dnsmasq
+  - dnsmasq-utils
   - docker
   - docker-common
   - docker-distribution
@@ -158,6 +170,7 @@ includes:
   - e2fsprogs-libs
   - ebtables
   - ed
+  - edk2-ovmf
   - elfutils
   - elfutils-default-yama-scope
   - elfutils-libelf
@@ -210,6 +223,7 @@ includes:
   - fipscheck-lib
   - firewalld
   - firewalld-filesystem
+  - flac-libs
   - fontawesome-fonts
   - fontawesome-fonts-web
   - fontconfig
@@ -218,6 +232,8 @@ includes:
   - freetype
   - freexl
   - fribidi
+  - fuse
+  - fuse-common
   - fuse-libs
   - galera
   - gawk
@@ -255,6 +271,13 @@ includes:
   - glibc-devel
   - glibc-headers
   - glibc-langpack-en
+  - glib-networking
+  - glusterfs
+  - glusterfs-api
+  - glusterfs-cli
+  - glusterfs-client-xlators
+  - glusterfs-fuse
+  - glusterfs-libs
   - gmp
   - gnat-srpm-macros
   - gnupg
@@ -278,8 +301,13 @@ includes:
   - grub2-tools-extra
   - grub2-tools-minimal
   - grubby
+  - gsettings-desktop-schemas
+  - gsm
   - gssproxy
+  - gstreamer1
+  - gstreamer1-plugins-base
   - gtk2
+  - gtk3
   - gtk-update-icon-cache
   - gts
   - guile
@@ -316,10 +344,12 @@ includes:
   - iptables
   - iptables-libs
   - iputils
+  - ipxe-roms-qemu
   - iscsi-initiator-utils
   - iscsi-initiator-utils-iscsiuio
   - isl
   - isns-utils-libs
+  - iso-codes
   - jansson
   - jasper-libs
   - java-1.8.0-openjdk
@@ -331,6 +361,7 @@ includes:
   - jq
   - js-jquery
   - json-c
+  - json-glib
   - kbd
   - kbd-legacy
   - kbd-misc
@@ -360,12 +391,14 @@ includes:
   - libart_lgpl
   - libasan
   - libassuan
+  - libasyncns
   - libatomic
   - libatomic_ops
   - libattr
   - libbabeltrace
   - libbasicobjects
   - libblkid
+  - libcacard
   - libcap
   - libcap-ng
   - libcgroup
@@ -382,7 +415,9 @@ includes:
   - libdb-utils
   - libdhash
   - libdnf
+  - libdrm
   - libedit
+  - libepoxy
   - liberasurecode
   - liberation-fonts-common
   - liberation-sans-fonts
@@ -392,6 +427,7 @@ includes:
   - libevent
   - libfastjson
   - libfdisk
+  - libfdt
   - libffi
   - libffi-devel
   - libfontenc
@@ -400,11 +436,16 @@ includes:
   - libgcrypt-devel
   - libgeotiff
   - libgfortran
+  - libglvnd
+  - libglvnd-egl
+  - libglvnd-gles
+  - libglvnd-glx
   - libgomp
   - libgpg-error
   - libgpg-error-devel
   - libgs
   - libgta
+  - libgusb
   - libibverbs
   - libICE
   - libicu
@@ -415,6 +456,7 @@ includes:
   - libimagequant
   - libini_config
   - libipt
+  - libiscsi
   - libjpeg-turbo
   - libkadm5
   - libkml
@@ -426,23 +468,28 @@ includes:
   - libmcpp
   - libmetalink
   - libmnl
+  - libmodman
   - libmodulemd
   - libmount
   - libmpc
   - libmpx
   - libnet
   - libnetfilter_conntrack
+  - libnfs
   - libnfnetlink
   - libnfsidmap
   - libnghttp2
   - libnl3
   - libnsl2
+  - libogg
   - libpaper
   - libpath_utils
   - libpcap
+  - libpciaccess
   - libpipeline
   - libpkgconf
   - libpng
+  - libproxy
   - libpsl
   - libpwquality
   - libqb
@@ -469,8 +516,10 @@ includes:
   - libsigsegv
   - libSM
   - libsmartcols
+  - libsndfile
   - libsodium
   - libsolv
+  - libsoup
   - libspatialite
   - libss
   - libssh
@@ -486,6 +535,7 @@ includes:
   - libtdb
   - libtevent
   - libthai
+  - libtheora
   - libtiff
   - libtirpc
   - libtomcrypt
@@ -502,13 +552,39 @@ includes:
   - libverto
   - libverto-devel
   - libverto-libev
+  - libvirt-daemon
+  - libvirt-daemon-driver-interface
+  - libvirt-daemon-driver-network
+  - libvirt-daemon-driver-nodedev
+  - libvirt-daemon-driver-nwfilter
+  - libvirt-daemon-driver-qemu
+  - libvirt-daemon-driver-secret
+  - libvirt-daemon-driver-storage
+  - libvirt-daemon-driver-storage-core
+  - libvirt-daemon-driver-storage-disk
+  - libvirt-daemon-driver-storage-gluster
+  - libvirt-daemon-driver-storage-iscsi
+  - libvirt-daemon-driver-storage-logical
+  - libvirt-daemon-driver-storage-mpath
+  - libvirt-daemon-driver-storage-rbd
+  - libvirt-daemon-driver-storage-scsi
+  - libvirt-daemon-driver-storage-sheepdog
+  - libvirt-daemon-driver-storage-zfs
+  - libvirt-daemon-kvm
   - libvirt-libs
+  - libvisual
+  - libvorbis
+  - libwayland-client
+  - libwayland-cursor
+  - libwayland-egl
+  - libwayland-server
   - libwbclient
   - libwebp
   - libwmf-lite
   - libwsman1
   - libX11
   - libX11-common
+  - libX11-xcb
   - libXau
   - libXaw
   - libxcb
@@ -530,10 +606,12 @@ includes:
   - libXpm
   - libXrandr
   - libXrender
+  - libxshmfence
   - libxslt
   - libxslt-devel
   - libXt
   - libXtst
+  - libXv
   - libXxf86misc
   - libXxf86vm
   - libyaml
@@ -557,6 +635,7 @@ includes:
   - lvm2-libs
   - lz4-libs
   - lzo
+  - lzop
   - m4
   - mailcap
   - mailx
@@ -576,6 +655,11 @@ includes:
   - mcpp
   - mdadm
   - memcached
+  - mesa-libEGL
+  - mesa-libgbm
+  - mesa-libGL
+  - mesa-libglapi
+  - mesa-libwayland-egl
   - minizip
   - mock
   - mock-core-configs
@@ -589,6 +673,7 @@ includes:
   - ncurses-compat-libs
   - ncurses-libs
   - netcdf
+  - netcf-libs
   - netpbm
   - nettle
   - net-snmp-libs
@@ -607,6 +692,7 @@ includes:
   - nss-tools
   - nss-util
   - numactl-libs
+  - numad
   - ocaml-srpm-macros
   - oci-register-machine
   - oci-systemd-hook
@@ -630,6 +716,8 @@ includes:
   - openssl-libs
   - openssl-pkcs11
   - openvswitch
+  - opus
+  - orc
   - os-prober
   - ostree-libs
   - overpass-fonts
@@ -735,6 +823,7 @@ includes:
   - protobuf-c
   - psmisc
   - publicsuffix-list-dafsa
+  - pulseaudio-libs
   - puppet
   - pycryptopp
   - pyliblzma
@@ -1374,19 +1463,32 @@ includes:
   - python-ryu-common
   - python-srpm-macros
   - python-systemd-doc
+  - qemu-block-curl
+  - qemu-block-dmg
+  - qemu-block-gluster
+  - qemu-block-iscsi
+  - qemu-block-nfs
+  - qemu-block-rbd
+  - qemu-block-ssh
+  - qemu-common
   - qemu-img
+  - qemu-kvm
+  - qemu-system-x86
+  - qemu-system-x86-core
   - qpid-proton-c
   - qrencode-libs
   - qt5-srpm-macros
   - quota
   - quota-nls
   - rabbitmq-server
+  - radvd
   - rdma-core
   - readline
   - redhat-lsb-core
   - redhat-lsb-submod-security
   - redhat-rpm-config
   - resource-agents
+  - rest
   - rootfiles
   - rpcbind
   - rpm
@@ -1437,19 +1539,26 @@ includes:
   - samba-common
   - samba-common-libs
   - scsi-target-utils
+  - SDL2
+  - seabios-bin
+  - seavgabios-bin
   - sed
   - selinux-policy
   - selinux-policy-targeted
   - setup
+  - sgabios-bin
   - sg3_utils
   - sg3_utils-libs
   - shadow-utils
   - shared-mime-info
+  - sheepdog
   - skopeo
   - skopeo-containers
+  - snappy
   - socat
   - sos
   - spax
+  - spice-server
   - sqlite
   - sqlite-libs
   - sscg
@@ -1515,19 +1624,26 @@ includes:
   - urw-base35-p052-fonts
   - urw-base35-standard-symbols-ps-fonts
   - urw-base35-z003-fonts
+  - usbredir
   - usermode
   - userspace-rcu
   - util-linux
   - util-linux-user
   - vim-minimal
+  - virglrenderer
+  - vte291
+  - vte-profile
   - web-assets-filesystem
   - wget
   - which
   - xemacs-filesystem
+  - xen-libs
+  - xen-licenses
   - xerces-c
   - xfsprogs
   - xinetd
   - xkeyboard-config
+  - xml-common
   - xmlsec1
   - xmlsec1-openssl
   - xorg-x11-fonts-ISO8859-1-100dpi
@@ -1544,6 +1660,7 @@ includes:
   - yum-plugin-priorities
   - yum-utils
   - zeromq
+  - zfs-fuse
   - zip
   - zlib
   - zlib-devel
