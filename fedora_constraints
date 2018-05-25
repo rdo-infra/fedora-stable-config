@@ -20,6 +20,8 @@ includes:
   - authselect
   - authselect-compat
   - authselect-libs
+  - automake
+  - autoconf
   - avahi-libs
   - basesystem
   - bash
@@ -59,6 +61,7 @@ includes:
   - boost-timer
   - boost-type_erasure
   - boost-wave
+  - bridge-utils
   - btrfs-progs
   - bzip2
   - bzip2-libs
@@ -230,6 +233,8 @@ includes:
   - GeoIP-GeoLite-data
   - geos
   - gettext
+  - gettext-common-devel
+  - gettext-devel
   - gettext-libs
   - ghc-srpm-macros
   - ghostscript
@@ -291,6 +296,8 @@ includes:
   - ImageMagick-libs
   - info
   - initscripts
+  - intltool
+  - ipa-pgothic-fonts
   - ipcalc
   - iproute
   - iproute-tc
@@ -340,6 +347,7 @@ includes:
   - libaio
   - libarchive
   - libargon2
+  - libart_lgpl
   - libasan
   - libassuan
   - libatomic
@@ -555,6 +563,7 @@ includes:
   - minizip
   - mock
   - mock-core-configs
+  - mod_wsgi
   - mozjs52
   - mpfr
   - mtools
@@ -679,6 +688,7 @@ includes:
   - perl-Text-ParseWords
   - perl-Text-Tabs.*Wrap
   - perl-Text-Unidecode
+  - perl-Thread-Queue
   - perl-threads
   - perl-threads-shared
   - perl-Time-Local
@@ -711,10 +721,12 @@ includes:
   - pycryptopp
   - pyliblzma
   - python2
+  - python2-actdiag
   - python2-alembic
   - python2-amqp
   - python2-anyjson
   - python2-appdirs
+  - python2-APScheduler
   - python2-asn1crypto
   - python2-astroid
   - python2-attrs
@@ -728,9 +740,14 @@ includes:
   - python2-beaker
   - python2-beautifulsoup4
   - python2-betamax
+  - python2-blist
+  - python2-blockdiag
+  - python2-botocore
   - python2-bson
   - python2-cachetools
   - python2-cairo
+  - python2-cassandra-driver
+  - python2-castellan
   - python2-certifi
   - python2-cffi
   - python2-chardet
@@ -740,11 +757,13 @@ includes:
   - python2-colorama
   - python2-configparser
   - python2-contextlib2
+  - python2-cotyledon
   - python2-coverage
   - python2-croniter
   - python2-crypto
   - python2-cryptography
   - python2-cssselect
+  - python2-cursive
   - python2-cycler
   - python2-d2to1
   - python2-dateutil
@@ -752,6 +771,7 @@ includes:
   - python2-debtcollector
   - python2-ddt
   - python2-decorator
+  - python2-defusedxml
   - python2-deltarpm
   - python2-demjson
   - python2-deprecation
@@ -771,14 +791,18 @@ includes:
   - python2-fasteners
   - python2-fixtures
   - python2-flake8
+  - python2-freezegun
+  - python2-funcparserlib
   - python2-funcsigs
   - python2-future
   - python2-futures
+  - python2-futurist
   - python2-gabbi
   - python2-gdal
   - python2-gevent
   - python2-gitdb
   - python2-GitPython
+  - python2-gnocchiclient
   - python2-gobject
   - python2-gobject-base
   - python2-google-auth
@@ -790,6 +814,7 @@ includes:
   - python2-icalendar
   - python2-idna
   - python2-imagesize
+  - python2-influxdb
   - python2-iniparse
   - python2-inotify
   - python2-ipaddr
@@ -809,10 +834,13 @@ includes:
   - python2-kerberos
   - python2-keyczar
   - python2-keyring
+  - python2-keystoneauth1
   - python2-kitchen
   - python2-kiwisolver
   - python2-kombu
   - python2-lazy-object-proxy
+  - python2-ldap
+  - python2-ldappool
   - python2-libs
   - python2-libselinux
   - python2-libsemanage
@@ -826,6 +854,7 @@ includes:
   - python2-matplotlib
   - python2-matplotlib-tk
   - python2-mccabe
+  - python2-meld3
   - python2-memcached
   - python2-migrate
   - python2-mimeparse
@@ -844,13 +873,22 @@ includes:
   - python2-networkx-geo
   - python2-nose
   - python2-nose-exclude
+  - python2-ntplib
   - python2-numpy
   - python2-numpy-f2py
   - python2-oauthlib
   - python2-olefile
+  - python2-openstacksdk
   - python2-openvswitch
+  - python2-osc-lib
+  - python2-os-client-config
   - python2-oslo-config
+  - python2-oslo-context
   - python2-oslo-i18n
+  - python2-oslo-log
+  - python2-oslo-serialization
+  - python2-oslo-utils
+  - python2-os-service-types
   - python2-packaging
   - python2-paramiko
   - python2-passlib
@@ -894,6 +932,7 @@ includes:
   - python2-pyOpenSSL
   - python2-pyparsing
   - python2-pyroute2
+  - python2-pysaml2
   - python2-pyserial
   - python2-pysnmp
   - python2-pysocks
@@ -904,7 +943,9 @@ includes:
   - python2-pyyaml
   - python2-qpid-proton
   - python2-redis
+  - python2-reportlab
   - python2-repoze-lru
+  - python2-repoze-who
   - python2-requestbuilder
   - python2-requests
   - python2-requestsexceptions
@@ -918,11 +959,15 @@ includes:
   - python2-rpm-macros
   - python2-rsa
   - python2-ryu
+  - python2-scales
   - python2-scipy
+  - python2-scrypt
   - python2-SecretStorage
   - python2-semantic_version
+  - python2-seqdiag
   - python2-service-identity
   - python2-setools
+  - python2-setproctitle
   - python2-setuptools
   - python2-simplegeneric
   - python2-simplejson
@@ -930,8 +975,10 @@ includes:
   - python2-six
   - python2-smmap
   - python2-snowballstemmer
+  - python2-sphinxcontrib-actdiag
   - python2-sphinxcontrib-httpdomain
   - python2-sphinxcontrib-pecanwsme
+  - python2-sphinxcontrib-seqdiag
   - python2-sphinxcontrib-websupport
   - python2-sphinx_rtd_theme
   - python2-sphinx-testing
@@ -961,6 +1008,7 @@ includes:
   - python2-traceback2
   - python2-twisted
   - python2-typing
+  - python2-tzlocal
   - python2-ujson
   - python2-unicodecsv
   - python2-unittest2
@@ -972,9 +1020,11 @@ includes:
   - python2-waitress
   - python2-warlock
   - python2-weakrefmethod
+  - python2-webcolors
   - python2-webencodings
   - python2-webob
   - python2-websocket-client
+  - python2-websockify
   - python2-webtest
   - python2-werkzeug
   - python2-whoosh
@@ -989,10 +1039,12 @@ includes:
   - python2-zope-event
   - python2-zope-interface
   - python3
+  - python3-actdiag
   - python3-alembic
   - python3-amqp
   - python3-anyjson
   - python3-appdirs
+  - python3-APScheduler
   - python3-asn1crypto
   - python3-astroid
   - python3-attrs
@@ -1002,10 +1054,15 @@ includes:
   - python3-beaker
   - python3-beautifulsoup4
   - python3-betamax
+  - python3-blist
+  - python3-blockdiag
   - python3-boto
+  - python3-botocore
   - python3-bson
   - python3-cachetools
   - python3-cairo
+  - python3-cassandra-driver
+  - python3-castellan
   - python3-certifi
   - python3-cffi
   - python3-chardet
@@ -1016,10 +1073,12 @@ includes:
   - python3-colorama
   - python3-configobj
   - python3-contextlib2
+  - python3-cotyledon
   - python3-coverage
   - python3-crypto
   - python3-cryptography
   - python3-cssselect
+  - python3-cursive
   - python3-cycler
   - python3-d2to1
   - python3-dateutil
@@ -1053,10 +1112,13 @@ includes:
   - python3-fixtures
   - python3-flake8
   - python3-freezegun
+  - python3-funcparserlib
   - python3-funcsigs
   - python3-future
+  - python3-futurist
   - python3-gabbi
   - python3-gevent
+  - python3-gnocchiclient
   - python3-gobject
   - python3-gobject-base
   - python3-google-auth
@@ -1069,6 +1131,7 @@ includes:
   - python3-idle
   - python3-idna
   - python3-imagesize
+  - python3-influxdb
   - python3-iniparse
   - python3-inotify
   - python3-IPy
@@ -1085,6 +1148,7 @@ includes:
   - python3-kazoo
   - python3-kerberos
   - python3-keyring
+  - python3-keystoneauth1
   - python3-kiwisolver
   - python3-kombu
   - python3-lazy-object-proxy
@@ -1123,12 +1187,21 @@ includes:
   - python3-networkx-geo
   - python3-nose
   - python3-nose-exclude
+  - python3-ntplib
   - python3-numpy
   - python3-numpy-f2py
   - python3-oauthlib
+  - python3-olefile
   - python3-openvswitch
+  - python3-osc-lib
+  - python3-os-client-config
   - python3-oslo-config
+  - python3-oslo-context
   - python3-oslo-i18n
+  - python3-oslo-log
+  - python3-oslo-policy
+  - python3-oslo-serialization
+  - python3-oslo-utils
   - python3-packaging
   - python3-paramiko
   - python3-passlib
@@ -1139,6 +1212,7 @@ includes:
   - python3-pifpaf
   - python3-pika
   - python3-pika-pool
+  - python3-pillow
   - python3-pip
   - python3-pluggy
   - python3-ply
@@ -1177,6 +1251,7 @@ includes:
   - python3-PyYAML
   - python3-qpid-proton
   - python3-redis
+  - python3-reportlab
   - python3-repoze-lru
   - python3-repoze-who
   - python3-requests
@@ -1192,12 +1267,15 @@ includes:
   - python3-rpm-macros
   - python3-rsa
   - python3-ryu
+  - python3-scales
   - python3-scipy
   - python3-scrypt
   - python3-SecretStorage
   - python3-semantic_version
+  - python3-seqdiag
   - python3-service-identity
   - python3-setools
+  - python3-setproctitle
   - python3-setuptools
   - python3-simplegeneric
   - python3-simplejson
@@ -1207,7 +1285,10 @@ includes:
   - python3-slip-dbus
   - python3-smartcols
   - python3-snowballstemmer
+  - python3-sphinxcontrib-actdiag
+  - python3-sphinxcontrib-httpdomain
   - python3-sphinxcontrib-pecanwsme
+  - python3-sphinxcontrib-seqdiag
   - python3-sphinxcontrib-websupport
   - python3-sphinx_rtd_theme
   - python3-sphinx-testing
@@ -1234,6 +1315,7 @@ includes:
   - python3-tornado
   - python3-traceback2
   - python3-twisted
+  - python3-tzlocal
   - python3-ujson
   - python3-unicodecsv
   - python3-unittest2
@@ -1243,9 +1325,11 @@ includes:
   - python3-voluptuous
   - python3-waitress
   - python3-warlock
+  - python3-webcolors
   - python3-webencodings
   - python3-webob
   - python3-websocket-client
+  - python3-websockify
   - python3-webtest
   - python3-werkzeug
   - python3-whoosh
@@ -1260,6 +1344,8 @@ includes:
   - python-matplotlib-data
   - python-matplotlib-data-fonts
   - python-oslo-i18n-lang
+  - python-oslo-log-lang
+  - python-oslo-utils-lang
   - python-rpm-macros
   - python-ryu-common
   - python-srpm-macros
@@ -1345,6 +1431,7 @@ includes:
   - subscription-manager-rhsm-certificates
   - sudo
   - SuperLU
+  - supervisor
   - syslinux
   - syslinux-extlinux
   - syslinux-extlinux-nonlinux
@@ -1411,6 +1498,8 @@ includes:
   - xfsprogs
   - xinetd
   - xkeyboard-config
+  - xmlsec1
+  - xmlsec1-openssl
   - xorg-x11-fonts-ISO8859-1-100dpi
   - xorg-x11-fonts-Type1
   - xorg-x11-font-utils
