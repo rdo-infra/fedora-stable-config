@@ -283,6 +283,7 @@ includes:
   - gts
   - guile
   - gzip
+  - haproxy
   - hardlink
   - harfbuzz
   - hdf5
@@ -384,8 +385,10 @@ includes:
   - liberation-fonts-common
   - liberation-sans-fonts
   - libesmtp
+  - libestr
   - libev
   - libevent
+  - libfastjson
   - libfdisk
   - libffi
   - libffi-devel
@@ -416,6 +419,8 @@ includes:
   - libksba
   - libldb
   - liblockfile
+  - liblogging-stdlog
+  - liblognorm
   - libmcpp
   - libmetalink
   - libmnl
@@ -443,6 +448,7 @@ includes:
   - libquadmath
   - libquadmath-devel
   - librados2
+  - librbd1
   - librdkafka
   - librdmacm
   - libref_array
@@ -1260,6 +1266,8 @@ includes:
   - python3-pyxattr
   - python3-PyYAML
   - python3-qpid-proton
+  - python3-rados
+  - python3-rbd
   - python3-redis
   - python3-reportlab
   - python3-repoze-lru
@@ -1355,6 +1363,8 @@ includes:
   - python-oslo-i18n-lang
   - python-oslo-log-lang
   - python-oslo-utils-lang
+  - python-rados
+  - python-rbd
   - python-rpm-macros
   - python-ryu-common
   - python-srpm-macros
@@ -1383,6 +1393,11 @@ includes:
   - rpm-plugin-selinux
   - rpm-plugin-systemd-inhibit
   - rsync
+  - rsyslog
+  - rsyslog-elasticsearch
+  - rsyslog-gnutls
+  - rsyslog-mmjsonparse
+  - rsyslog-mmnormalize
   - ruby
   - ruby-augeas
   - ruby-devel
