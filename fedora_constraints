@@ -27,6 +27,7 @@ includes:
   - bc
   - bind-export-libs
   - binutils
+  - bison
   - blas
   - boost
   - boost-atomic
@@ -71,9 +72,12 @@ includes:
   - checkpolicy
   - chkconfig
   - chrony
+  - cifs-utils
   - cloud-init
   - cloud-utils
   - cloud-utils-growpart
+  - clufter-bin
+  - clufter-common
   - cmake-filesystem
   - compat-openssl10
   - container-selinux
@@ -82,6 +86,8 @@ includes:
   - coreutils
   - coreutils-common
   - coreutils-single
+  - corosync
+  - corosynclib
   - cpio
   - cpp
   - cpp-hocon
@@ -94,6 +100,7 @@ includes:
   - cronie
   - cronie-anacron
   - crontabs
+  - crudini
   - crypto-policies
   - cryptopp
   - cryptsetup-libs
@@ -155,6 +162,7 @@ includes:
   - ethtool
   - euca2ools
   - expat
+  - expect
   - facter
   - fakeroot
   - fakeroot-libs
@@ -182,6 +190,7 @@ includes:
   - freexl
   - fribidi
   - fuse-libs
+  - galera
   - gawk
   - gc
   - gcc
@@ -238,6 +247,7 @@ includes:
   - grub2-tools-extra
   - grub2-tools-minimal
   - grubby
+  - gssproxy
   - gtk2
   - gtk-update-icon-cache
   - gts
@@ -290,6 +300,7 @@ includes:
   - kernel-debug-devel
   - kernel-headers
   - kernel-modules
+  - keyutils
   - keyutils-libs
   - keyutils-libs-devel
   - kmod
@@ -334,6 +345,8 @@ includes:
   - libdnf
   - libedit
   - liberasurecode
+  - liberation-fonts-common
+  - liberation-sans-fonts
   - libesmtp
   - libev
   - libevent
@@ -389,6 +402,7 @@ includes:
   - libpng
   - libpsl
   - libpwquality
+  - libqb
   - libqhull
   - libquadmath
   - libquadmath-devel
@@ -443,7 +457,9 @@ includes:
   - libuuid
   - libverto
   - libverto-devel
+  - libverto-libev
   - libvirt-libs
+  - libwbclient
   - libwebp
   - libwmf-lite
   - libwsman1
@@ -483,6 +499,7 @@ includes:
   - linux-firmware
   - lksctp-tools
   - Lmod
+  - logrotate
   - lsof
   - lttng-ust
   - lua
@@ -500,7 +517,17 @@ includes:
   - mailx
   - make
   - man-db
+  - mariadb
+  - mariadb-common
+  - mariadb-config
   - mariadb-connector-c
+  - mariadb-errmsg
+  - mariadb-gssapi-server
+  - mariadb-rocksdb-engine
+  - mariadb-server
+  - mariadb-server-galera
+  - mariadb-server-utils
+  - mariadb-tokudb-engine
   - mcpp
   - mdadm
   - memcached
@@ -517,7 +544,9 @@ includes:
   - netcdf
   - netpbm
   - nettle
+  - net-snmp-libs
   - net-tools
+  - nfs-utils
   - nim-srpm-macros
   - nmap-ncat
   - npth
@@ -555,8 +584,14 @@ includes:
   - openvswitch
   - os-prober
   - ostree-libs
+  - overpass-fonts
   - p11-kit
   - p11-kit-trust
+  - pacemaker
+  - pacemaker-cli
+  - pacemaker-cluster-libs
+  - pacemaker-libs
+  - pacemaker-remote
   - pam
   - pango
   - parted
@@ -573,10 +608,13 @@ includes:
   - pcre2-devel
   - pcre2-utf16
   - pcre2-utf32
+  - pcs
   - perl-Carp
   - perl-Config-General
   - perl-constant
   - perl-Data-Dumper
+  - perl-DBD-MySQL
+  - perl-DBI
   - perl-Digest
   - perl-Digest-MD5
   - perl-Encode
@@ -597,6 +635,8 @@ includes:
   - perl-libnet
   - perl-libs
   - perl-macros
+  - perl-Math-BigInt
+  - perl-Math-Complex
   - perl-MIME-Base64
   - perl-Mozilla-CA
   - perl-Net-SSLeay
@@ -621,6 +661,7 @@ includes:
   - perl-threads
   - perl-threads-shared
   - perl-Time-Local
+  - perl-TimeDate
   - perl-Unicode-Normalize
   - perl-URI
   - perl-XML-Parser
@@ -806,6 +847,7 @@ includes:
   - python2-ply
   - python2-policycoreutils
   - python2-positional
+  - python2-posix_ipc
   - python2-prettytable
   - python2-progressbar
   - python2-psutil
@@ -882,6 +924,7 @@ includes:
   - python2-subprocess32
   - python2-subunit
   - python2-suds
+  - python2-sysv_ipc
   - python2-tabulate
   - python2-tempita
   - python2-tenacity
@@ -947,6 +990,7 @@ includes:
   - python3-chardet
   - python3-click
   - python3-cliff
+  - python3-clufter
   - python3-cmd2
   - python3-colorama
   - python3-configobj
@@ -1079,6 +1123,7 @@ includes:
   - python3-ply
   - python3-policycoreutils
   - python3-positional
+  - python3-posix_ipc
   - python3-prettytable
   - python3-psutil
   - python3-psycopg2
@@ -1155,6 +1200,7 @@ includes:
   - python3-subunit
   - python3-suds
   - python3-systemd
+  - python3-sysv_ipc
   - python3-tabulate
   - python3-tempita
   - python3-tenacity
@@ -1201,12 +1247,16 @@ includes:
   - qpid-proton-c
   - qrencode-libs
   - qt5-srpm-macros
+  - quota
+  - quota-nls
   - rdma-core
   - readline
   - redhat-lsb-core
   - redhat-lsb-submod-security
   - redhat-rpm-config
+  - resource-agents
   - rootfiles
+  - rpcbind
   - rpm
   - rpm-build
   - rpm-build-libs
@@ -1220,21 +1270,35 @@ includes:
   - ruby-augeas
   - ruby-devel
   - ruby-facter
+  - rubygem-backports
   - rubygem-bigdecimal
   - rubygem-did_you_mean
+  - rubygem-ethon
+  - rubygem-ffi
   - rubygem-io-console
   - rubygem-json
+  - rubygem-multi_json
+  - rubygem-mustermann
   - rubygem-openssl
+  - rubygem-open4
   - rubygem-pathspec
   - rubygem-psych
+  - rubygem-rack
+  - rubygem-rack-protection
+  - rubygem-rack-test
   - rubygem-rdoc
   - rubygem-rgen
   - rubygem-ruby-shadow
+  - rubygem-sinatra
+  - rubygem-tilt
   - rubygems
   - ruby-irb
   - ruby-libs
   - rubypick
   - rust-srpm-macros
+  - samba-client-libs
+  - samba-common
+  - samba-common-libs
   - scsi-target-utils
   - sed
   - selinux-policy
@@ -1323,6 +1387,7 @@ includes:
   - xemacs-filesystem
   - xerces-c
   - xfsprogs
+  - xinetd
   - xkeyboard-config
   - xorg-x11-fonts-ISO8859-1-100dpi
   - xorg-x11-fonts-Type1
