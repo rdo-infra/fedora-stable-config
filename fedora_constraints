@@ -1,6 +1,8 @@
 ---
 includes:
   - acl
+  - apr
+  - apr-util
   - adobe-mappings-cmap
   - adobe-mappings-cmap-deprecated
   - adobe-mappings-pdf
@@ -62,6 +64,7 @@ includes:
   - boost-type_erasure
   - boost-wave
   - bridge-utils
+  - brotli
   - btrfs-progs
   - bzip2
   - bzip2-libs
@@ -192,6 +195,7 @@ includes:
   - fakeroot-libs
   - fdupes
   - fedora-gpg-keys
+  - fedora-logos-httpd
   - fedora-obsolete-packages
   - fedora-release
   - fedora-release-cloud
@@ -286,6 +290,9 @@ includes:
   - hicolor-icon-theme
   - hiera
   - hostname
+  - httpd
+  - httpd-filesystem
+  - httpd-tools
   - http-parser
   - hunspell
   - hunspell-en-US
@@ -543,6 +550,7 @@ includes:
   - lz4-libs
   - lzo
   - m4
+  - mailcap
   - mailx
   - make
   - man-db
@@ -563,7 +571,8 @@ includes:
   - minizip
   - mock
   - mock-core-configs
-  - mod_wsgi
+  - mod_http2
+  - mod_ssl
   - mozjs52
   - mpfr
   - mtools
@@ -859,6 +868,7 @@ includes:
   - python2-migrate
   - python2-mimeparse
   - python2-mock
+  - python2-mod_wsgi
   - python2-monotonic
   - python2-mox
   - python2-msgpack
@@ -1030,7 +1040,6 @@ includes:
   - python2-whoosh
   - python2-wrapt
   - python2-wsgi_intercept
-  - python2-wsme
   - python2-xpyb
   - python2-XStatic
   - python2-yaql
@@ -1174,6 +1183,7 @@ includes:
   - python3-migrate
   - python3-mimeparse
   - python3-mock
+  - python3-mod_wsgi
   - python3-monotonic
   - python3-msgpack
   - python3-munch
@@ -1335,7 +1345,6 @@ includes:
   - python3-whoosh
   - python3-wrapt
   - python3-wsgi_intercept
-  - python3-wsme
   - python3-yaql
   - python3-zake
   - python3-zmq
@@ -1423,6 +1432,7 @@ includes:
   - spax
   - sqlite
   - sqlite-libs
+  - sscg
   - sshpass
   - sssd-client
   - sssd-common
