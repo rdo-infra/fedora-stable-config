@@ -143,6 +143,7 @@ includes:
   - dnf-plugins-core
   - dnf-utils
   - dnf-yum
+  - dnsmasq
   - docker
   - docker-common
   - docker-distribution
@@ -307,6 +308,7 @@ includes:
   - intltool
   - ipa-pgothic-fonts
   - ipcalc
+  - ipmitool
   - iproute
   - iproute-tc
   - ipset
@@ -594,6 +596,7 @@ includes:
   - nfs-utils
   - nim-srpm-macros
   - nmap-ncat
+  - novnc
   - npth
   - nspr
   - nss
@@ -736,6 +739,7 @@ includes:
   - pycryptopp
   - pyliblzma
   - python2
+  - python2-abclient
   - python2-actdiag
   - python2-alembic
   - python2-amqp
@@ -1054,6 +1058,7 @@ includes:
   - python2-zope-event
   - python2-zope-interface
   - python3
+  - python3-abclient
   - python3-actdiag
   - python3-alembic
   - python3-amqp
