@@ -159,6 +159,27 @@ includes:
   - emacs-filesystem
   - enchant
   - esmtp
+  - erlang-asn1
+  - erlang-compiler
+  - erlang-crypto
+  - erlang-eldap
+  - erlang-erts
+  - erlang-hipe
+  - erlang-inets
+  - erlang-kernel
+  - erlang-mnesia
+  - erlang-os_mon
+  - erlang-otp_mibs
+  - erlang-public_key
+  - erlang-runtime_tools
+  - erlang-sasl
+  - erlang-sd_notify
+  - erlang-snmp
+  - erlang-ssl
+  - erlang-stdlib
+  - erlang-syntax_tools
+  - erlang-tools
+  - erlang-xmerl
   - ethtool
   - euca2ools
   - expat
@@ -1249,6 +1270,7 @@ includes:
   - qt5-srpm-macros
   - quota
   - quota-nls
+  - rabbitmq-server
   - rdma-core
   - readline
   - redhat-lsb-core
