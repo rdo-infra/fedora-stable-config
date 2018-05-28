@@ -554,6 +554,7 @@ includes:
   - libverto-libev
   - libvirt-daemon
   - libvirt-daemon-driver-interface
+  - libvirt-daemon-driver-lxc
   - libvirt-daemon-driver-network
   - libvirt-daemon-driver-nodedev
   - libvirt-daemon-driver-nwfilter
@@ -571,6 +572,7 @@ includes:
   - libvirt-daemon-driver-storage-sheepdog
   - libvirt-daemon-driver-storage-zfs
   - libvirt-daemon-kvm
+  - libvirt-daemon-lxc
   - libvirt-libs
   - libvisual
   - libvorbis
