@@ -1332,6 +1332,7 @@ includes:
   - python3-paste-deploy
   - python3-pbr
   - python3-pecan
+  - python3-pep8
   - python3-pifpaf
   - python3-pika
   - python3-pika-pool
