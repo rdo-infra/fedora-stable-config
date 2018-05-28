@@ -120,6 +120,7 @@ includes:
   - crudini
   - crypto-policies
   - cryptopp
+  - cryptsetup
   - cryptsetup-libs
   - cups-client
   - cups-libs
@@ -160,6 +161,7 @@ includes:
   - docker-common
   - docker-distribution
   - docker-rhel-push-plugin
+  - dosfstools
   - dpkg
   - dracut
   - dracut-config-generic
@@ -319,6 +321,7 @@ includes:
   - heat-cfntools
   - hicolor-icon-theme
   - hiera
+  - hivex
   - hostname
   - httpd
   - httpd-filesystem
@@ -445,6 +448,7 @@ includes:
   - libgpg-error-devel
   - libgs
   - libgta
+  - libguestfs
   - libgusb
   - libibverbs
   - libICE
@@ -462,6 +466,7 @@ includes:
   - libkml
   - libksba
   - libldb
+  - libldm
   - liblockfile
   - liblogging-stdlog
   - liblognorm
@@ -625,6 +630,7 @@ includes:
   - Lmod
   - logrotate
   - lsof
+  - lsscsi
   - lttng-ust
   - lua
   - lua-filesystem
@@ -693,6 +699,8 @@ includes:
   - nss-sysinit
   - nss-tools
   - nss-util
+  - ntfs-3g
+  - ntfsprogs
   - numactl-libs
   - numad
   - ocaml-srpm-macros
@@ -720,6 +728,7 @@ includes:
   - openvswitch
   - opus
   - orc
+  - osinfo-db
   - os-prober
   - ostree-libs
   - overpass-fonts
@@ -951,6 +960,7 @@ includes:
   - python2-lazy-object-proxy
   - python2-ldap
   - python2-ldappool
+  - python2-libguestfs
   - python2-libs
   - python2-libselinux
   - python2-libsemanage
@@ -1266,6 +1276,7 @@ includes:
   - python3-ldap
   - python3-ldappool
   - python3-libcomps
+  - python3-libguestfs
   - python3-librepo
   - python3-libs
   - python3-libselinux
@@ -1540,6 +1551,7 @@ includes:
   - samba-client-libs
   - samba-common
   - samba-common-libs
+  - scrub
   - scsi-target-utils
   - SDL2
   - seabios-bin
@@ -1563,6 +1575,7 @@ includes:
   - spice-server
   - sqlite
   - sqlite-libs
+  - squashfs-tools
   - sscg
   - sshpass
   - sssd-client
@@ -1572,6 +1585,7 @@ includes:
   - subscription-manager-rhsm-certificates
   - sudo
   - SuperLU
+  - supermin
   - supervisor
   - syslinux
   - syslinux-extlinux
@@ -1661,6 +1675,7 @@ includes:
   - yum-metadata-parser
   - yum-plugin-priorities
   - yum-utils
+  - zerofree
   - zeromq
   - zfs-fuse
   - zip
