@@ -671,6 +671,7 @@ includes:
   - minizip
   - mock
   - mock-core-configs
+  - mod_auth_gssapi
   - mod_http2
   - mod_ssl
   - mozjs52
