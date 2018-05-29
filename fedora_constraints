@@ -960,7 +960,6 @@ includes:
   - python2-kombu
   - python2-lazy-object-proxy
   - python2-ldap
-  - python2-ldappool
   - python2-libguestfs
   - python2-libs
   - python2-libselinux
@@ -1275,7 +1274,6 @@ includes:
   - python3-kombu
   - python3-lazy-object-proxy
   - python3-ldap
-  - python3-ldappool
   - python3-libcomps
   - python3-libguestfs
   - python3-librepo
