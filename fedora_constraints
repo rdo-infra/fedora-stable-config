@@ -1527,6 +1527,7 @@ includes:
   - rpmlint
   - rpm-plugin-selinux
   - rpm-plugin-systemd-inhibit
+  - rpm-sign-libs
   - rsync
   - rsyslog
   - rsyslog-elasticsearch
