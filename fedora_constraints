@@ -649,6 +649,7 @@ includes:
   - mailx
   - make
   - man-db
+  - man-pages
   - mariadb
   - mariadb-common
   - mariadb-config
