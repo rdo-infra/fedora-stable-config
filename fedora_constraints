@@ -913,6 +913,7 @@ includes:
   - python2-fasteners
   - python2-fixtures
   - python2-flake8
+  - python2-flask
   - python2-freezegun
   - python2-funcparserlib
   - python2-funcsigs
@@ -945,6 +946,7 @@ includes:
   - python2-ipaddress
   - python2-IPy
   - python2-iso8601
+  - python2-itsdangerous
   - python2-jinja2
   - python2-jmespath
   - python2-jsonpatch
@@ -1241,6 +1243,7 @@ includes:
   - python3-firewall
   - python3-fixtures
   - python3-flake8
+  - python3-flask
   - python3-freezegun
   - python3-funcparserlib
   - python3-funcsigs
@@ -1268,6 +1271,7 @@ includes:
   - python3-inotify
   - python3-IPy
   - python3-iso8601
+  - python3-itsdangerous
   - python3-jinja2
   - python3-jmespath
   - python3-jsonpatch
