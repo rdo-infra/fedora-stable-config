@@ -147,6 +147,7 @@ includes:
   - dhcp-client
   - dhcp-common
   - dhcp-libs
+  - diffstat
   - diffutils
   - distribution-gpg-keys
   - dkms
@@ -163,17 +164,20 @@ includes:
   - docker-distribution
   - docker-rhel-push-plugin
   - dosfstools
+  - doxygen
   - dpkg
   - dracut
   - dracut-config-generic
   - drpm
   - dulwich-core
+  - dyninst
   - dwz
   - e2fsprogs
   - e2fsprogs-libs
   - ebtables
   - ed
   - edk2-ovmf
+  - efivar-libs
   - elfutils
   - elfutils-default-yama-scope
   - elfutils-libelf
@@ -421,6 +425,7 @@ includes:
   - libdhash
   - libdnf
   - libdrm
+  - libdwarf
   - libedit
   - libepoxy
   - liberasurecode
@@ -520,6 +525,7 @@ includes:
   - libsemanage
   - libsepol
   - libsepol-devel
+  - libserf
   - libsigsegv
   - libSM
   - libsmartcols
@@ -677,6 +683,7 @@ includes:
   - mod_auth_gssapi
   - mod_http2
   - mod_ssl
+  - mokutil
   - mozjs52
   - mpfr
   - mtools
@@ -748,6 +755,7 @@ includes:
   - parted
   - passwd
   - patch
+  - patchutils
   - pciutils
   - pciutils-libs
   - pcre
@@ -1613,6 +1621,8 @@ includes:
   - subscription-manager-rhsm-certificates
   - sudo
   - SuperLU
+  - subversion
+  - subversion-libs
   - supermin
   - supervisor
   - syslinux
@@ -1625,6 +1635,10 @@ includes:
   - systemd-libs
   - systemd-pam
   - systemd-udev
+  - systemtap
+  - systemtap-client
+  - systemtap-devel
+  - systemtap-runtime
   - tar
   - tcl
   - tcpdump
@@ -1671,6 +1685,7 @@ includes:
   - usbredir
   - usermode
   - userspace-rcu
+  - utf8proc
   - util-linux
   - util-linux-user
   - vim-minimal
@@ -1680,6 +1695,7 @@ includes:
   - web-assets-filesystem
   - wget
   - which
+  - xapian-core-libs
   - xemacs-filesystem
   - xen-libs
   - xen-licenses
