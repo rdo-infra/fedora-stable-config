@@ -99,6 +99,7 @@ includes:
   - compat-openssl10
   - container-selinux
   - container-storage-setup
+  - containers-common
   - copy-jdk-configs
   - coreutils
   - coreutils-common
@@ -361,6 +362,7 @@ includes:
   - javapackages-tools
   - jbig2dec-libs
   - jbigkit-libs
+  - jemalloc
   - jq
   - js-jquery
   - json-c
@@ -1252,6 +1254,8 @@ includes:
   - python3-gabbi
   - python3-gevent
   - python3-gflags
+  - python3-gitdb
+  - python3-GitPython
   - python3-gnocchiclient
   - python3-gobject
   - python3-gobject-base
@@ -1428,6 +1432,7 @@ includes:
   - python3-slip
   - python3-slip-dbus
   - python3-smartcols
+  - python3-smmap
   - python3-snowballstemmer
   - python3-sphinxcontrib-actdiag
   - python3-sphinxcontrib-httpdomain
