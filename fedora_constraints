@@ -1013,7 +1013,6 @@ includes:
   - python2-mccabe
   - python2-meld3
   - python2-memcached
-  - python2-migrate
   - python2-mimeparse
   - python2-mock
   - python2-mod_wsgi
@@ -1344,7 +1343,6 @@ includes:
   - python3-matplotlib-tk
   - python3-mccabe
   - python3-memcached
-  - python3-migrate
   - python3-mimeparse
   - python3-mock
   - python3-mod_wsgi
