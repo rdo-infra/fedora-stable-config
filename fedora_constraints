@@ -647,6 +647,7 @@ includes:
   - linux-atm-libs
   - linux-firmware
   - lksctp-tools
+  - lmdb-libs
   - Lmod
   - lm_sensors-libs
   - logrotate
