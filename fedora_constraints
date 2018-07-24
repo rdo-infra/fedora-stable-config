@@ -474,6 +474,8 @@ includes:
   - libiscsi
   - libjpeg-turbo
   - libkadm5
+  - libkcapi
+  - libkcapi-hmaccalc
   - libkml
   - libksba
   - libldb
@@ -863,7 +865,6 @@ includes:
   - psmisc
   - publicsuffix-list-dafsa
   - pulseaudio-libs
-  - puppet
   - pycryptopp
   - pyliblzma
   - python2
@@ -935,6 +936,7 @@ includes:
   - python2-editor
   - python2-elasticsearch
   - python2-enum34
+  - python2-entrypoints
   - python2-extras
   - python2-falcon
   - python2-fasteners
@@ -1270,6 +1272,7 @@ includes:
   - python3-editor
   - python3-elasticsearch
   - python3-enchant
+  - python3-entrypoints
   - python3-extras
   - python3-falcon
   - python3-fasteners

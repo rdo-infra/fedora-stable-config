@@ -8,6 +8,7 @@ builds:
   - python-pykafka-2.6.0-0.1.dev2.fc28
   - python-ldappool-2.1.0-1.fc29
   - python-migrate-0.11.0-7.fc28
+  - puppet-5.5.1-2.fc29
 
 arches:
   - noarch
