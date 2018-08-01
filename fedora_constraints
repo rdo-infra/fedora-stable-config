@@ -872,6 +872,7 @@ includes:
   - python2-actdiag
   - python2-alembic
   - python2-amqp
+  - python2-aniso8601
   - python2-anyjson
   - python2-appdirs
   - python2-APScheduler
@@ -943,6 +944,7 @@ includes:
   - python2-fixtures
   - python2-flake8
   - python2-flask
+  - python2-flask-restful
   - python2-freezegun
   - python2-funcparserlib
   - python2-funcsigs
@@ -1209,6 +1211,7 @@ includes:
   - python3-actdiag
   - python3-alembic
   - python3-amqp
+  - python3-aniso8601
   - python3-anyjson
   - python3-appdirs
   - python3-APScheduler
@@ -1280,6 +1283,7 @@ includes:
   - python3-fixtures
   - python3-flake8
   - python3-flask
+  - python3-flask-restful
   - python3-freezegun
   - python3-funcparserlib
   - python3-funcsigs
