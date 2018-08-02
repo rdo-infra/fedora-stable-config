@@ -943,7 +943,6 @@ includes:
   - python2-fasteners
   - python2-fixtures
   - python2-flake8
-  - python2-flask
   - python2-flask-restful
   - python2-freezegun
   - python2-funcparserlib
@@ -1282,7 +1281,6 @@ includes:
   - python3-firewall
   - python3-fixtures
   - python3-flake8
-  - python3-flask
   - python3-flask-restful
   - python3-freezegun
   - python3-funcparserlib
