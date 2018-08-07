@@ -1244,6 +1244,7 @@ includes:
   - python3-contextlib2
   - python3-cotyledon
   - python3-coverage
+  - python3-croniter
   - python3-crypto
   - python3-cryptography
   - python3-cssselect
