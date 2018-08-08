@@ -1144,7 +1144,6 @@ includes:
   - python2-snowballstemmer
   - python2-sphinxcontrib-actdiag
   - python2-sphinxcontrib-httpdomain
-  - python2-sphinxcontrib-pecanwsme
   - python2-sphinxcontrib-seqdiag
   - python2-sphinxcontrib-websupport
   - python2-sphinx_rtd_theme
@@ -1474,7 +1473,6 @@ includes:
   - python3-snowballstemmer
   - python3-sphinxcontrib-actdiag
   - python3-sphinxcontrib-httpdomain
-  - python3-sphinxcontrib-pecanwsme
   - python3-sphinxcontrib-seqdiag
   - python3-sphinxcontrib-websupport
   - python3-sphinx_rtd_theme

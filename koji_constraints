@@ -4,6 +4,7 @@ builds:
   - python-openstack-doc-tools-1.8.0-1.fc29
   - python-sphinx-1.6.5-2.fc28
   - python-sphinxcontrib-apidoc-0.2.1-6.fc28
+  - python-sphinxcontrib-pecanwsme-0.9.0-1.fc28
   - python-kubernetes-5.0.0-1.fc29
   - python-pykafka-2.6.0-0.1.dev2.fc28
   - python-ldappool-2.1.0-1.fc29
