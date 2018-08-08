@@ -1427,6 +1427,7 @@ includes:
   - python3-pysaml2
   - python3-pyserial
   - python3-pysocks
+  - python3-pystache
   - python3-pytest
   - python3-pytoml
   - python3-pytz
