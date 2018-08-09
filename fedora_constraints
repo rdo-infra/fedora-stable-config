@@ -1340,6 +1340,7 @@ includes:
   - python3-libvirt
   - python3-libxml2
   - python3-linecache2
+  - python3-linux-procfs
   - python3-logutils
   - python3-lxml
   - python3-magic
@@ -1389,6 +1390,7 @@ includes:
   - python3-pbr
   - python3-pecan
   - python3-pep8
+  - python3-perf
   - python3-pifpaf
   - python3-pika
   - python3-pika-pool
@@ -1453,6 +1455,7 @@ includes:
   - python3-rtslib
   - python3-ryu
   - python3-scales
+  - python3-schedutils
   - python3-scipy
   - python3-scrypt
   - python3-SecretStorage
