@@ -9,6 +9,7 @@ includes:
   - alsa-lib
   - annobin
   - ansible
+  - ansible-python3
   - apr
   - apr-util
   - armadillo
