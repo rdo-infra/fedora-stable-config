@@ -75,6 +75,7 @@ includes:
   - brltty
   - brotli
   - btrfs-progs
+  - buildah
   - bzip2
   - bzip2-libs
   - ca-certificates
@@ -757,8 +758,9 @@ includes:
   - openvswitch
   - opus
   - orc
-  - osinfo-db
   - os-prober
+  - osinfo-db
+  - ostree
   - ostree-libs
   - overpass-fonts
   - p11-kit
@@ -1615,6 +1617,7 @@ includes:
   - ruby-irb
   - ruby-libs
   - rubypick
+  - runc
   - rust-srpm-macros
   - samba-client-libs
   - samba-common
