@@ -883,6 +883,7 @@ includes:
   - python2-astroid
   - python2-attrs
   - python2-audit
+  - python2-Automat
   - python2-babel
   - python2-backports
   - python2-backports_abc
@@ -909,6 +910,7 @@ includes:
   - python2-colorama
   - python2-configobj
   - python2-configparser
+  - python2-constantly
   - python2-contextlib2
   - python2-cotyledon
   - python2-coverage
@@ -970,9 +972,11 @@ includes:
   - python2-hawkey
   - python2-html5lib
   - python2-httplib2
+  - python2-hyperlink
   - python2-icalendar
   - python2-idna
   - python2-imagesize
+  - python2-incremental
   - python2-influxdb
   - python2-iniparse
   - python2-inotify
@@ -1138,6 +1142,7 @@ includes:
   - python2-setools
   - python2-setproctitle
   - python2-setuptools
+  - python2-setuptools_scm
   - python2-simplegeneric
   - python2-simplejson
   - python2-singledispatch
@@ -1220,6 +1225,7 @@ includes:
   - python3-astroid
   - python3-attrs
   - python3-audit
+  - python3-Automat
   - python3-babel
   - python3-bcrypt
   - python3-beaker
@@ -1243,6 +1249,7 @@ includes:
   - python3-cmd2
   - python3-colorama
   - python3-configobj
+  - python3-constantly
   - python3-contextlib2
   - python3-cotyledon
   - python3-coverage
@@ -1305,10 +1312,12 @@ includes:
   - python3-hawkey
   - python3-html5lib
   - python3-httplib2
+  - python3-hyperlink
   - python3-icalendar
   - python3-idle
   - python3-idna
   - python3-imagesize
+  - python3-incremental
   - python3-influxdb
   - python3-iniparse
   - python3-inotify
@@ -1469,6 +1478,7 @@ includes:
   - python3-setools
   - python3-setproctitle
   - python3-setuptools
+  - python3-setuptools_scm
   - python3-simplegeneric
   - python3-simplejson
   - python3-singledispatch
