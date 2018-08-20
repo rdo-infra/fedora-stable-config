@@ -86,6 +86,7 @@ includes:
   - ccache
   - cdparanoia-libs
   - celt051
+  - certmonger
   - cfitsio
   - checkpolicy
   - chkconfig
