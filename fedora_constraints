@@ -358,6 +358,7 @@ includes:
   - ipset-libs
   - iptables
   - iptables-libs
+  - iptables-services
   - iputils
   - ipxe-roms-qemu
   - iscsi-initiator-utils
