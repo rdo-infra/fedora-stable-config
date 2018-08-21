@@ -1091,7 +1091,6 @@ includes:
   - python2-pyeclib
   - python2-pyflakes
   - python2-pygal
-  - python2-pyghmi
   - python2-pygments
   - python2-pykwalify
   - python2-pymemcache
