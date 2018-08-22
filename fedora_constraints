@@ -29,6 +29,7 @@ includes:
   - authselect-compat
   - authselect-libs
   - autoconf
+  - autogen-libopts
   - automake
   - avahi-libs
   - basesystem
@@ -733,6 +734,9 @@ includes:
   - nss-util
   - ntfs-3g
   - ntfsprogs
+  - ntp
+  - ntpdate
+  - ntpstat
   - numactl-libs
   - numad
   - ocaml-srpm-macros
