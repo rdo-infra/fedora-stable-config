@@ -101,9 +101,11 @@ includes:
   - cmake-filesystem
   - colord-libs
   - compat-openssl10
-  - containers-common
   - container-selinux
   - container-storage-setup
+  - containernetworking-cni
+  - containernetworking-plugins
+  - containers-common
   - copy-jdk-configs
   - coreutils
   - coreutils-common
@@ -501,6 +503,7 @@ includes:
   - libnfnetlink
   - libnfs
   - libnfsidmap
+  - libnftnl
   - libnghttp2
   - libnl3
   - libnotify
@@ -720,6 +723,7 @@ includes:
   - nettle
   - net-tools
   - nfs-utils
+  - nftables
   - nim-srpm-macros
   - nmap-ncat
   - novnc
@@ -858,6 +862,7 @@ includes:
   - pkgconf
   - pkgconf-m4
   - pkgconf-pkg-config
+  - podman
   - policycoreutils
   - policycoreutils-devel
   - policycoreutils-python-utils
