@@ -1046,6 +1046,7 @@ includes:
   - python2-mysql
   - python2-netaddr
   - python2-netifaces
+  - python2-netmiko
   - python2-networkx
   - python2-networkx-core
   - python2-networkx-drawing
@@ -1144,6 +1145,7 @@ includes:
   - python2-scales
   - python2-schedutils
   - python2-scipy
+  - python2-scp
   - python2-scrypt
   - python2-SecretStorage
   - python2-semantic_version
@@ -1184,6 +1186,7 @@ includes:
   - python2-testresources
   - python2-testscenarios
   - python2-testtools
+  - python2-textfsm
   - python2-thrift
   - python2-tinyrpc
   - python2-tkinter
@@ -1382,6 +1385,7 @@ includes:
   - python3-mysql
   - python3-netaddr
   - python3-netifaces
+  - python3-netmiko
   - python3-networkx
   - python3-networkx-core
   - python3-networkx-drawing
@@ -1480,6 +1484,7 @@ includes:
   - python3-scales
   - python3-schedutils
   - python3-scipy
+  - python3-scp
   - python3-scrypt
   - python3-SecretStorage
   - python3-semantic_version
@@ -1523,6 +1528,7 @@ includes:
   - python3-testresources
   - python3-testscenarios
   - python3-testtools
+  - python3-textfsm
   - python3-tinyrpc
   - python3-tkinter
   - python3-tornado
