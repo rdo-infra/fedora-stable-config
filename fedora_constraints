@@ -719,6 +719,8 @@ includes:
   - netcdf
   - netcf-libs
   - netpbm
+  - net-snmp
+  - net-snmp-agent-libs
   - net-snmp-libs
   - nettle
   - net-tools
