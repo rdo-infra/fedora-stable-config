@@ -1456,6 +1456,7 @@ includes:
   - python3-pyparsing
   - python3-pyroute2
   - python3-pysaml2
+  - python3-pysendfile
   - python3-pyserial
   - python3-pysocks
   - python3-pystache
