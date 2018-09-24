@@ -567,6 +567,7 @@ includes:
   - libsss_nss_idmap
   - libsss_sudo
   - libstdc.*
+  - libsysfs
   - libtalloc
   - libtar
   - libtasn1
@@ -1708,6 +1709,7 @@ includes:
   - SuperLU
   - supermin
   - supervisor
+  - sysfsutils
   - syslinux
   - syslinux-extlinux
   - syslinux-extlinux-nonlinux
