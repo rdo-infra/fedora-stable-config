@@ -286,6 +286,7 @@ includes:
   - glibc-devel
   - glibc-headers
   - glibc-langpack-en
+  - glibc-static
   - glib-networking
   - glusterfs
   - glusterfs-api
@@ -300,6 +301,9 @@ includes:
   - gnupg2-smime
   - gnutls
   - gobject-introspection
+  - golang
+  - golang-bin
+  - golang-src
   - google-droid-sans-fonts
   - google-roboto-slab-fonts
   - go-srpm-macros
@@ -627,6 +631,7 @@ includes:
   - libXcomposite
   - libxcrypt
   - libxcrypt-devel
+  - libxcrypt-static
   - libXcursor
   - libXdamage
   - libXext
@@ -697,6 +702,7 @@ includes:
   - mcpp
   - mdadm
   - memcached
+  - mercurial
   - mesa-libEGL
   - mesa-libgbm
   - mesa-libGL
@@ -1326,6 +1332,7 @@ includes:
   - python3-google-auth
   - python3-gpg
   - python3-greenlet
+  - python3-gunicorn
   - python3-hawkey
   - python3-html5lib
   - python3-httplib2
