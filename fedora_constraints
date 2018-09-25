@@ -106,6 +106,7 @@ includes:
   - containernetworking-cni
   - containernetworking-plugins
   - containers-common
+  - conntrack-tools
   - copy-jdk-configs
   - coreutils
   - coreutils-common
@@ -300,6 +301,8 @@ includes:
   - gnupg2
   - gnupg2-smime
   - gnutls
+  - gnutls-dane
+  - gnutls-utils
   - gobject-introspection
   - golang
   - golang-bin
@@ -504,6 +507,9 @@ includes:
   - libmpx
   - libnet
   - libnetfilter_conntrack
+  - libnetfilter_cthelper
+  - libnetfilter_cttimeout
+  - libnetfilter_queue
   - libnfnetlink
   - libnfs
   - libnfsidmap
@@ -591,6 +597,8 @@ includes:
   - libverto
   - libverto-devel
   - libverto-libev
+  - libvirt-bash-completion
+  - libvirt-client
   - libvirt-daemon
   - libvirt-daemon-driver-interface
   - libvirt-daemon-driver-lxc
@@ -1761,6 +1769,7 @@ includes:
   - tuned
   - tzdata
   - tzdata-java
+  - unbound-libs
   - unixODBC
   - unzip
   - uriparser
