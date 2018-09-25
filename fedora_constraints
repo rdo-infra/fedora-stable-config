@@ -1199,6 +1199,7 @@ includes:
   - python2-suds
   - python2-sysv_ipc
   - python2-tabulate
+  - python2-talloc
   - python2-tempita
   - python2-tenacity
   - python2-testrepository
@@ -1440,6 +1441,7 @@ includes:
   - python3-pecan
   - python3-pep8
   - python3-perf
+  - python3-pexpect
   - python3-pifpaf
   - python3-pika
   - python3-pika-pool
@@ -1453,6 +1455,7 @@ includes:
   - python3-prettytable
   - python3-psutil
   - python3-psycopg2
+  - python3-ptyprocess
   - python3-py
   - python3-pyasn1
   - python3-pyasn1-modules
@@ -1464,6 +1467,7 @@ includes:
   - python3-pyflakes
   - python3-pygal
   - python3-pygments
+  - python3-pykmip
   - python3-pykwalify
   - python3-pymemcache
   - python3-pymongo
@@ -1549,6 +1553,7 @@ includes:
   - python3-systemd
   - python3-sysv_ipc
   - python3-tabulate
+  - python3-talloc
   - python3-tempita
   - python3-tenacity
   - python3-testrepository
@@ -1677,6 +1682,9 @@ includes:
   - rubypick
   - runc
   - rust-srpm-macros
+  - samba
+  - samba-common-tools
+  - samba-libs
   - samba-client-libs
   - samba-common
   - samba-common-libs
