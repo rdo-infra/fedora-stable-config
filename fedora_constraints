@@ -1249,6 +1249,7 @@ includes:
   - python3-astroid
   - python3-attrs
   - python3-audit
+  - python3-autobahn
   - python3-Automat
   - python3-babel
   - python3-bcrypt
@@ -1380,6 +1381,7 @@ includes:
   - python3-linux-procfs
   - python3-logutils
   - python3-lxml
+  - python3-lz4
   - python3-magic
   - python3-mako
   - python3-markupsafe
@@ -1517,6 +1519,7 @@ includes:
   - python3-slip-dbus
   - python3-smartcols
   - python3-smmap
+  - python3-snappy
   - python3-snowballstemmer
   - python3-sphinxcontrib-actdiag
   - python3-sphinxcontrib-httpdomain
@@ -1548,8 +1551,11 @@ includes:
   - python3-tinyrpc
   - python3-tkinter
   - python3-tornado
+  - python3-tosca-parser
   - python3-traceback2
+  - python3-trollius
   - python3-twisted
+  - python3-txaio
   - python3-tzlocal
   - python3-ujson
   - python3-unicodecsv
@@ -1570,6 +1576,7 @@ includes:
   - python3-werkzeug
   - python3-whoosh
   - python3-wrapt
+  - python3-wsaccel
   - python3-wsgi_intercept
   - python3-yaql
   - python3-zake
