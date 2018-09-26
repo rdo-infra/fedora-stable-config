@@ -393,6 +393,7 @@ includes:
   - kbd
   - kbd-legacy
   - kbd-misc
+  - keepalived
   - kernel-core
   - kernel-debug-devel
   - kernel-headers
