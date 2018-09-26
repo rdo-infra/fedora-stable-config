@@ -40,6 +40,7 @@ includes:
   - binutils
   - bison
   - blas
+  - blosc
   - bluez-libs
   - boost
   - boost-atomic
@@ -718,6 +719,7 @@ includes:
   - mesa-libEGL
   - mesa-libgbm
   - mesa-libGL
+  - mesa-libGLU
   - mesa-libglapi
   - mesa-libwayland-egl
   - minizip
@@ -771,6 +773,7 @@ includes:
   - oniguruma
   - openblas
   - openblas-openmp
+  - openblas-serial
   - openblas-srpm-macros
   - openblas-threads
   - openblas-threads64_
@@ -1273,6 +1276,7 @@ includes:
   - python3-blockdiag
   - python3-boto
   - python3-botocore
+  - python3-Bottleneck
   - python3-bson
   - python3-cachetools
   - python3-cairo
@@ -1298,6 +1302,7 @@ includes:
   - python3-cursive
   - python3-cycler
   - python3-d2to1
+  - python3-daiquiri
   - python3-dateutil
   - python3-dbus
   - python3-ddt
@@ -1325,6 +1330,7 @@ includes:
   - python3-entrypoints
   - python3-extras
   - python3-falcon
+  - python3-fastcache
   - python3-fasteners
   - python3-firewall
   - python3-fixtures
@@ -1340,6 +1346,7 @@ includes:
   - python3-gflags
   - python3-gitdb
   - python3-GitPython
+  - python3-gmpy2
   - python3-gnocchiclient
   - python3-gobject
   - python3-gobject-base
@@ -1370,6 +1377,7 @@ includes:
   - python3-jsonpath-rw-ext
   - python3-jsonpointer
   - python3-jsonschema
+  - python3-json-logger
   - python3-jwt
   - python3-kafka
   - python3-kazoo
@@ -1398,6 +1406,7 @@ includes:
   - python3-lz4
   - python3-magic
   - python3-mako
+  - python3-marathon
   - python3-markupsafe
   - python3-matplotlib
   - python3-matplotlib-tk
@@ -1407,6 +1416,7 @@ includes:
   - python3-mock
   - python3-mod_wsgi
   - python3-monotonic
+  - python3-mpmath
   - python3-msgpack
   - python3-munch
   - python3-murano-pkg-check
@@ -1421,6 +1431,7 @@ includes:
   - python3-nose
   - python3-nose-exclude
   - python3-ntplib
+  - python3-numexpr
   - python3-numpy
   - python3-numpy-f2py
   - python3-oauth2client
@@ -1438,6 +1449,8 @@ includes:
   - python3-oslo-serialization
   - python3-oslo-utils
   - python3-packaging
+  - python3-pandas
+  - python3-pandas-datareader
   - python3-paramiko
   - python3-passlib
   - python3-paste
@@ -1471,6 +1484,7 @@ includes:
   - python3-pydotplus
   - python3-pyflakes
   - python3-pygal
+  - python3-pyglet
   - python3-pygments
   - python3-pykmip
   - python3-pykwalify
@@ -1503,6 +1517,7 @@ includes:
   - python3-repoze-who
   - python3-requests
   - python3-requestsexceptions
+  - python3-requests-file
   - python3-requests-kerberos
   - python3-requests-mock
   - python3-requests-oauthlib
@@ -1555,8 +1570,10 @@ includes:
   - python3-subunit
   - python3-subunit2sql
   - python3-suds
+  - python3-sympy
   - python3-systemd
   - python3-sysv_ipc
+  - python3-tables
   - python3-tabulate
   - python3-talloc
   - python3-tempita
@@ -1596,6 +1613,8 @@ includes:
   - python3-wrapt
   - python3-wsaccel
   - python3-wsgi_intercept
+  - python3-xlrd
+  - python3-xlwt
   - python3-xmltodict
   - python3-yaql
   - python3-zake
