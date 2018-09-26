@@ -154,6 +154,7 @@ includes:
   - dhcp-client
   - dhcp-common
   - dhcp-libs
+  - dibbler-client
   - diffstat
   - diffutils
   - distribution-gpg-keys
