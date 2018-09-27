@@ -29,6 +29,7 @@ includes:
   - authselect-compat
   - authselect-libs
   - autoconf
+  - autofs
   - autogen-libopts
   - automake
   - avahi-libs
@@ -37,6 +38,10 @@ includes:
   - bash-completion
   - bc
   - bind-export-libs
+  - bind-libs
+  - bind-libs-lite
+  - bind-license
+  - bind-utils
   - binutils
   - bison
   - blas
@@ -249,6 +254,9 @@ includes:
   - fontconfig
   - fontpackages-filesystem
   - fpc-srpm-macros
+  - freeipa-client
+  - freeipa-client-common
+  - freeipa-common
   - freetype
   - freexl
   - fribidi
@@ -345,6 +353,7 @@ includes:
   - hdf5
   - hdparm
   - heat-cfntools
+  - hesiod
   - hicolor-icon-theme
   - hiera
   - hivex
@@ -411,6 +420,7 @@ includes:
   - kpartx
   - krb5-devel
   - krb5-libs
+  - krb5-workstation
   - lapack
   - lasi
   - lato-fonts
@@ -491,6 +501,7 @@ includes:
   - libijs
   - libimagequant
   - libini_config
+  - libipa_hbac
   - libipt
   - libiscsi
   - libjpeg-turbo
@@ -567,6 +578,7 @@ includes:
   - libsigsegv
   - libSM
   - libsmartcols
+  - libsmbclient
   - libsndfile
   - libsodium
   - libsolv
@@ -579,6 +591,7 @@ includes:
   - libsss_certmap
   - libsss_idmap
   - libsss_nss_idmap
+  - libsss_simpleifp
   - libsss_sudo
   - libstdc.*
   - libsysfs
@@ -775,6 +788,8 @@ includes:
   - oci-register-machine
   - oci-systemd-hook
   - oci-umount
+  - oddjob
+  - oddjob-mkhomedir
   - ogdi
   - oniguruma
   - openblas
@@ -1272,6 +1287,7 @@ includes:
   - python3-astroid
   - python3-attrs
   - python3-audit
+  - python3-augeas
   - python3-autobahn
   - python3-Automat
   - python3-babel
@@ -1279,6 +1295,7 @@ includes:
   - python3-beaker
   - python3-beautifulsoup4
   - python3-betamax
+  - python3-bind
   - python3-blist
   - python3-blockdiag
   - python3-boto
@@ -1367,6 +1384,7 @@ includes:
   - python3-google-auth
   - python3-gpg
   - python3-greenlet
+  - python3-gssapi
   - python3-gunicorn
   - python3-hawkey
   - python3-html5lib
@@ -1380,6 +1398,8 @@ includes:
   - python3-influxdb
   - python3-iniparse
   - python3-inotify
+  - python3-ipaclient
+  - python3-ipalib
   - python3-IPy
   - python3-iso8601
   - python3-isodate
@@ -1392,6 +1412,7 @@ includes:
   - python3-jsonpointer
   - python3-jsonschema
   - python3-json-logger
+  - python3-jwcrypto
   - python3-jwt
   - python3-kafka
   - python3-kazoo
@@ -1407,6 +1428,7 @@ includes:
   - python3-lesscpy
   - python3-libcomps
   - python3-libguestfs
+  - python3-libipa_hbac
   - python3-librepo
   - python3-libreport
   - python3-libs
@@ -1523,9 +1545,11 @@ includes:
   - python3-pytoml
   - python3-pytz
   - python3-pyudev
+  - python3-pyusb
   - python3-pyxattr
   - python3-PyYAML
   - python3-qpid-proton
+  - python3-qrcode-core
   - python3-rados
   - python3-rbd
   - python3-rcssmin
@@ -1586,6 +1610,8 @@ includes:
   - python3-sqlalchemy
   - python3-sqlalchemy-utils
   - python3-sqlparse
+  - python3-sss
+  - python3-sss-murmur
   - python3-sssdconfig
   - python3-statsd
   - python3-stestr
@@ -1667,6 +1693,7 @@ includes:
   - python3-XStatic-smart-table
   - python3-XStatic-termjs
   - python3-yaql
+  - python3-yubico
   - python3-zake
   - python3-zmq
   - python3-zope-event
@@ -1799,10 +1826,20 @@ includes:
   - squashfs-tools
   - sscg
   - sshpass
+  - sssd
+  - sssd-ad
   - sssd-client
   - sssd-common
+  - sssd-common-pac
+  - sssd-dbus
+  - sssd-ipa
   - sssd-kcm
+  - sssd-krb5
+  - sssd-krb5-common
+  - sssd-ldap
   - sssd-nfs-idmap
+  - sssd-proxy
+  - sssd-tools
   - subscription-manager-rhsm-certificates
   - subversion
   - subversion-libs
