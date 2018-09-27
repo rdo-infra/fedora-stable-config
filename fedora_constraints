@@ -72,6 +72,8 @@ includes:
   - boost-timer
   - boost-type_erasure
   - boost-wave
+  - bootswatch-common
+  - bootswatch-fonts
   - bridge-utils
   - brlapi
   - brltty
@@ -390,6 +392,7 @@ includes:
   - jemalloc
   - jq
   - js-jquery
+  - js-jquery1
   - json-c
   - json-glib
   - kbd
@@ -715,6 +718,8 @@ includes:
   - mariadb-tokudb-engine
   - mcpp
   - mdadm
+  - mdi-common
+  - mdi-fonts
   - memcached
   - mercurial
   - mesa-libEGL
@@ -1314,6 +1319,12 @@ includes:
   - python3-deprecation
   - python3-devel
   - python3-distro
+  - python3-django
+  - python3-django-appconf
+  - python3-django-compressor
+  - python3-django-debreach
+  - python3-django-nose
+  - python3-django-pyscss
   - python3-dnf
   - python3-dnf-plugins-core
   - python3-dnf-plugins-extras-common
@@ -1370,6 +1381,7 @@ includes:
   - python3-inotify
   - python3-IPy
   - python3-iso8601
+  - python3-isodate
   - python3-itsdangerous
   - python3-jinja2
   - python3-jmespath
@@ -1391,6 +1403,7 @@ includes:
   - python3-lazy-object-proxy
   - python3-ldap
   - python3-ldap3
+  - python3-lesscpy
   - python3-libcomps
   - python3-libguestfs
   - python3-librepo
@@ -1465,6 +1478,7 @@ includes:
   - python3-pika
   - python3-pika-pool
   - python3-pillow
+  - python3-pint
   - python3-pip
   - python3-pluggy
   - python3-ply
@@ -1513,6 +1527,8 @@ includes:
   - python3-qpid-proton
   - python3-rados
   - python3-rbd
+  - python3-rcssmin
+  - python3-rdflib
   - python3-redis
   - python3-reportlab
   - python3-repoze-lru
@@ -1525,6 +1541,7 @@ includes:
   - python3-requests-oauthlib
   - python3-retrying
   - python3-rfc3986
+  - python3-rjsmin
   - python3-routes
   - python3-rpm
   - python3-rpm-generators
@@ -1537,7 +1554,9 @@ includes:
   - python3-scipy
   - python3-scp
   - python3-scrypt
+  - python3-scss
   - python3-SecretStorage
+  - python3-selenium
   - python3-semantic_version
   - python3-seqdiag
   - python3-service-identity
@@ -1599,6 +1618,7 @@ includes:
   - python3-unittest2
   - python3-uritemplate
   - python3-urllib3
+  - python3-versiontools
   - python3-vine
   - python3-virtualenv
   - python3-voluptuous
@@ -1618,11 +1638,38 @@ includes:
   - python3-xlrd
   - python3-xlwt
   - python3-xmltodict
+  - python3-XStatic
+  - python3-XStatic-Angular
+  - python3-XStatic-Angular-Bootstrap
+  - python3-XStatic-Angular-FileUpload
+  - python3-XStatic-Angular-Gettext
+  - python3-XStatic-Angular-lrdragndrop
+  - python3-XStatic-Bootstrap-Datepicker
+  - python3-XStatic-Bootstrap-SCSS
+  - python3-XStatic-D3
+  - python3-XStatic-Font-Awesome
+  - python3-XStatic-Hogan
+  - python3-XStatic-JQuery-Migrate
+  - python3-XStatic-JQuery-TableSorter
+  - python3-XStatic-JQuery-quicksearch
+  - python3-XStatic-JSEncrypt
+  - python3-XStatic-Jasmine
+  - python3-XStatic-Magic-Search
+  - python3-XStatic-Rickshaw
+  - python3-XStatic-Spin
+  - python3-XStatic-bootswatch
+  - python3-XStatic-jQuery
+  - python3-XStatic-jquery-ui
+  - python3-XStatic-mdi
+  - python3-XStatic-roboto-fontface
+  - python3-XStatic-smart-table
+  - python3-XStatic-termjs
   - python3-yaql
   - python3-zake
   - python3-zmq
   - python3-zope-event
   - python3-zope-interface
+  - python-django-bash-completion
   - python-matplotlib-data
   - python-matplotlib-data-fonts
   - python-oslo-db-lang
@@ -1661,6 +1708,8 @@ includes:
   - redhat-rpm-config
   - resource-agents
   - rest
+  - roboto-fontface-common
+  - roboto-fontface-fonts
   - rootfiles
   - rpcbind
   - rpm
@@ -1852,6 +1901,26 @@ includes:
   - xorg-x11-fonts-Type1
   - xorg-x11-font-utils
   - xorg-x11-server-utils
+  - xstatic-angular-bootstrap-common
+  - XStatic-Angular-common
+  - xstatic-angular-fileupload-common
+  - xstatic-angular-gettext-common
+  - xstatic-angular-lrdragndrop-common
+  - xstatic-bootstrap-datepicker-common
+  - xstatic-bootstrap-scss-common
+  - xstatic-d3-common
+  - xstatic-hogan-common
+  - xstatic-jasmine-common
+  - xstatic-jquery-migrate-common
+  - xstatic-jquery-quicksearch-common
+  - xstatic-jquery-tablesorter-common
+  - xstatic-jquery-ui-common
+  - xstatic-jsencrypt-common
+  - XStatic-Magic-Search-common
+  - xstatic-rickshaw-common
+  - xstatic-smart-table-common
+  - xstatic-spin-common
+  - xstatic-termjs-common
   - xz
   - xz-devel
   - xz-libs
