@@ -14,6 +14,7 @@ builds:
   - python-pyghmi-1.2.4-3.fc28
   - python-pysaml2-4.5.0-2.fc29
   - python-memcached-1.58-5.fc29
+  - python-pecan-1.3.2-1.fc29
 
 arches:
   - noarch
