@@ -195,6 +195,7 @@ includes:
   - elfutils-libs
   - emacs-filesystem
   - enchant
+  - environment-modules
   - erlang-asn1
   - erlang-compiler
   - erlang-crypto
@@ -1503,6 +1504,7 @@ includes:
   - python3-pysocks
   - python3-pystache
   - python3-pytest
+  - python3-pytimeparse
   - python3-pytoml
   - python3-pytz
   - python3-pyudev
