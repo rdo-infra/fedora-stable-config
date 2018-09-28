@@ -933,6 +933,7 @@ includes:
   - python2-alembic
   - python2-amqp
   - python2-aniso8601
+  - python2-ansible-runner
   - python2-anyjson
   - python2-appdirs
   - python2-APScheduler
@@ -978,6 +979,7 @@ includes:
   - python2-cursive
   - python2-cycler
   - python2-d2to1
+  - python2-daemon
   - python2-dateutil
   - python2-dbus
   - python2-ddt
@@ -1072,6 +1074,7 @@ includes:
   - python2-libxml2
   - python2-linecache2
   - python2-linux-procfs
+  - python2-lockfile
   - python2-logutils
   - python2-lxml
   - python2-mako
@@ -1126,6 +1129,7 @@ includes:
   - python2-pecan
   - python2-pep8
   - python2-perf
+  - python2-pexpect
   - python2-pifpaf
   - python2-pika
   - python2-pika-pool
@@ -1140,6 +1144,7 @@ includes:
   - python2-progressbar
   - python2-psutil
   - python2-psycopg2
+  - python2-ptyprocess
   - python2-py
   - python2-pyasn1
   - python2-pyasn1-modules
@@ -1281,6 +1286,7 @@ includes:
   - python3-alembic
   - python3-amqp
   - python3-aniso8601
+  - python3-ansible-runner
   - python3-anyjson
   - python3-appdirs
   - python3-APScheduler
@@ -1328,6 +1334,7 @@ includes:
   - python3-cursive
   - python3-cycler
   - python3-d2to1
+  - python3-daemon
   - python3-daiquiri
   - python3-dateutil
   - python3-dbus
@@ -1440,6 +1447,7 @@ includes:
   - python3-libxml2
   - python3-linecache2
   - python3-linux-procfs
+  - python3-lockfile
   - python3-logutils
   - python3-lxml
   - python3-lz4
