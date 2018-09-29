@@ -1348,6 +1348,7 @@ includes:
   - python3-distro
   - python3-django
   - python3-django-appconf
+  - python3-django-babel
   - python3-django-compressor
   - python3-django-debreach
   - python3-django-nose
