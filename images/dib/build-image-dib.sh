@@ -55,7 +55,7 @@ sudo yum -y install diskimage-builder
 # Clone RDO config repo which provides additional elements
 
 if [ ! -d config ]; then
-    git clone https://review.rdoproject.org/r/config
+    git clone https://softwarefactory-project.io/r/config
 fi
 
 if [ ! -f ~/.ssh/id_rsa ]; then
@@ -63,7 +63,9 @@ if [ ! -f ~/.ssh/id_rsa ]; then
 fi
 sudo mkdir -p /etc/nodepool/scripts
 sudo mkdir -p /var/lib/nodepool/.ssh/
-sudo cp ~/.ssh/id_rsa.pub /var/lib/nodepool/.ssh/nodepool_rsa.pub
+sudo cp ~/.ssh/id_rsa.pub /var/lib/nodepool/.ssh/
+# Retrieve SF zuul public key
+sudo wget https://softwarefactory-project.io/keys/zuul_rsa.pub -O /var/lib/nodepool/.ssh/zuul_rsa.pub
 
 # Build the image
 
@@ -71,5 +73,5 @@ export ELEMENTS_PATH=$PWD/config/nodepool/elements
 export DIB_YUM_MINIMAL_BOOTSTRAP_REPOS=/tmp/temporal-yum.repos.d/
 export DIB_RELEASE=28
 
-disk-image-create fedora-minimal nodepool-minimal simple-init zuul-cloner-pip jenkins-worker rdo-base $RDO_FEDORA_ELEMENT vm
+disk-image-create fedora-minimal nodepool-minimal-rdo simple-init zuul-worker-user-rdo rdo-base rdo-fedora-stable $RDO_FEDORA_ELEMENT vm
 

@@ -309,6 +309,8 @@ includes:
   - glusterfs-fuse
   - glusterfs-libs
   - gmp
+  - gmp-c\+\+
+  - gmp-devel
   - gnat-srpm-macros
   - gnupg
   - gnupg2
@@ -1247,6 +1249,7 @@ includes:
   - python2-tkinter
   - python2-tools
   - python2-tornado
+  - python2-tosca-parser
   - python2-traceback2
   - python2-twisted
   - python2-typing
@@ -1324,6 +1327,7 @@ includes:
   - python3-configobj
   - python3-configshell
   - python3-constantly
+  - python3-construct
   - python3-contextlib2
   - python3-cotyledon
   - python3-coverage
