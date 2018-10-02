@@ -107,6 +107,11 @@ includes:
   - clufter-bin
   - clufter-common
   - cmake-filesystem
+  - coin-or-Cbc
+  - coin-or-Cgl
+  - coin-or-Clp
+  - coin-or-CoinUtils
+  - coin-or-Osi
   - colord-libs
   - compat-openssl10
   - container-selinux
