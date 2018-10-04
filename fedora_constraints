@@ -1361,6 +1361,7 @@ includes:
   - python3-django-babel
   - python3-django-compressor
   - python3-django-debreach
+  - python3-django-formtools
   - python3-django-nose
   - python3-django-pyscss
   - python3-dnf

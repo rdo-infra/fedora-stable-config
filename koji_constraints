@@ -18,6 +18,7 @@ builds:
   - python-pexpect-4.5-1.fc29
   - python-werkzeug-0.14.1-1.fc29
   - python-XStatic-Angular-UUID-0.0.4.0-1.fc28
+  - python-XStatic-Angular-Vis-4.16.0.0-1.fc28
 
 arches:
   - noarch
