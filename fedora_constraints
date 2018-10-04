@@ -1224,6 +1224,7 @@ includes:
   - python2-sphinx-argparse
   - python2-sphinxcontrib-actdiag
   - python2-sphinxcontrib-httpdomain
+  - python2-sphinxcontrib-programoutput
   - python2-sphinxcontrib-seqdiag
   - python2-sphinxcontrib-websupport
   - python2-sphinx_rtd_theme
@@ -1622,6 +1623,7 @@ includes:
   - python3-sphinx-argparse
   - python3-sphinxcontrib-actdiag
   - python3-sphinxcontrib-httpdomain
+  - python3-sphinxcontrib-programoutput
   - python3-sphinxcontrib-seqdiag
   - python3-sphinxcontrib-websupport
   - python3-sphinx_rtd_theme
