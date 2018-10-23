@@ -668,6 +668,7 @@ includes:
   - libxcb
   - libXcomposite
   - libxcrypt
+  - libxcrypt-common
   - libxcrypt-devel
   - libxcrypt-static
   - libXcursor
@@ -1021,7 +1022,6 @@ includes:
   - python2-future
   - python2-futures
   - python2-futurist
-  - python2-gabbi
   - python2-gdal
   - python2-gevent
   - python2-gflags
@@ -1392,7 +1392,6 @@ includes:
   - python3-funcsigs
   - python3-future
   - python3-futurist
-  - python3-gabbi
   - python3-gevent
   - python3-gflags
   - python3-gitdb

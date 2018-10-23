@@ -22,6 +22,7 @@ builds:
   - python-XStatic-FileSaver-1.3.2.0-1.fc28
   - python-XStatic-Json2yaml-0.1.1.0-1.fc28
   - python-XStatic-JS-Yaml-3.8.1.0-1.fc28
+  - python-gabbi-1.42.1-2.fc28
 
 arches:
   - noarch
