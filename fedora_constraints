@@ -391,6 +391,7 @@ includes:
   - iptables-libs
   - iptables-services
   - iputils
+  - ipxe-bootimgs
   - ipxe-roms-qemu
   - iscsi-initiator-utils
   - iscsi-initiator-utils-iscsiuio
@@ -1904,6 +1905,7 @@ includes:
   - texlive-tetex-bin
   - texlive-texlive.infra
   - texlive-texlive.infra-bin
+  - tftp-server
   - thrift
   - thrift-devel
   - time
