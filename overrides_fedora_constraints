@@ -2,4 +2,3 @@
 includes:
 
 excludes:
-  - openstack-tripleo-ui-deps.*
