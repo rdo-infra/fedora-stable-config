@@ -623,6 +623,7 @@ includes:
   - libuser
   - libutempter
   - libuuid
+  - libuv
   - libverto
   - libverto-devel
   - libverto-libev
@@ -777,7 +778,9 @@ includes:
   - nftables
   - nim-srpm-macros
   - nmap-ncat
+  - nodejs
   - novnc
+  - npm
   - npth
   - nspr
   - nss
