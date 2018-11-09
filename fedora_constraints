@@ -1879,6 +1879,7 @@ includes:
   - syslinux-extlinux
   - syslinux-extlinux-nonlinux
   - syslinux-nonlinux
+  - syslinux-tftpboot
   - sysstat
   - systemd
   - systemd-bootchart
