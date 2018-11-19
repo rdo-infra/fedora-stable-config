@@ -1436,6 +1436,7 @@ includes:
   - python3-jsonpointer
   - python3-jsonschema
   - python3-json-logger
+  - python3-junitxml
   - python3-jwcrypto
   - python3-jwt
   - python3-kafka
@@ -2000,6 +2001,7 @@ includes:
   - yum-metadata-parser
   - yum-plugin-priorities
   - yum-utils
+  - zchunk-libs
   - zerofree
   - zeromq
   - zfs-fuse
