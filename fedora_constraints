@@ -327,6 +327,7 @@ includes:
   - golang
   - golang-bin
   - golang-src
+  - gomtree
   - google-droid-sans-fonts
   - google-roboto-slab-fonts
   - go-srpm-macros
