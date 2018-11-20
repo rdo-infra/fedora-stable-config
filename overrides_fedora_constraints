@@ -2,3 +2,9 @@
 includes:
 
 excludes:
+  - atomic
+  - atomic-registries
+  - skopeo
+  - skopeo-containers
+  - skopeo-debuginfo
+  - skopeo-debugsource

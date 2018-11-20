@@ -18,6 +18,7 @@ builds:
   - python-pexpect-4.5-1.fc29
   - python-werkzeug-0.14.1-1.fc29
   - python-gabbi-1.42.1-2.fc28
+  - atomic-1.22.1-5.git2fd0860.fc29
 
 arches:
   - noarch
