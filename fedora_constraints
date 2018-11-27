@@ -249,6 +249,7 @@ includes:
   - file-libs
   - filesystem
   - findutils
+  - fio
   - fipscheck
   - fipscheck-lib
   - firewalld
@@ -553,6 +554,8 @@ includes:
   - libpciaccess
   - libpipeline
   - libpkgconf
+  - libpmem
+  - libpmemblk
   - libpng
   - libproxy
   - libpsl
@@ -1073,7 +1076,6 @@ includes:
   - python2-kitchen
   - python2-kiwisolver
   - python2-kmod
-  - python2-kombu
   - python2-lazy-object-proxy
   - python2-ldap
   - python2-libcomps
@@ -1447,7 +1449,6 @@ includes:
   - python3-keystoneauth1
   - python3-kiwisolver
   - python3-kmod
-  - python3-kombu
   - python3-lazy-object-proxy
   - python3-ldap
   - python3-ldap3
@@ -1907,6 +1908,7 @@ includes:
   - texlive-lib
   - texlive-metafont
   - texlive-metafont-bin
+  - texlive-texconfig
   - texlive-tetex
   - texlive-tetex-bin
   - texlive-texlive.infra
