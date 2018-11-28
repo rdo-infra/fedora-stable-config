@@ -101,6 +101,7 @@ includes:
   - chkconfig
   - chrony
   - cifs-utils
+  - ck
   - cloud-init
   - cloud-utils
   - cloud-utils-growpart
@@ -460,6 +461,7 @@ includes:
   - libcom_err
   - libcom_err-devel
   - libcomps
+  - libconfig
   - libcroco
   - libcurl
   - libcurl-minimal
@@ -707,10 +709,12 @@ includes:
   - linux-atm-libs
   - linux-firmware
   - lksctp-tools
+  - lldpad
   - lmdb-libs
   - Lmod
   - lm_sensors-libs
   - logrotate
+  - lshw
   - lsof
   - lsscsi
   - lttng-ust
@@ -721,6 +725,7 @@ includes:
   - lua-lpeg
   - lua-posix
   - lua-term
+  - luajit
   - lvm2
   - lvm2-libs
   - lz4
@@ -1827,6 +1832,7 @@ includes:
   - scrub
   - scsi-target-utils
   - SDL2
+  - sdparm
   - seabios-bin
   - seavgabios-bin
   - sed
@@ -1846,6 +1852,7 @@ includes:
   - sheepdog
   - skopeo
   - skopeo-containers
+  - smartmontools
   - snappy
   - socat
   - sos
@@ -1877,6 +1884,7 @@ includes:
   - SuperLU
   - supermin
   - supervisor
+  - sysbench
   - sysfsutils
   - syslinux
   - syslinux-extlinux
