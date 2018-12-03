@@ -1500,6 +1500,7 @@ includes:
   - python3-networkx-geo
   - python3-nose
   - python3-nose-exclude
+  - python3-ntlm-auth
   - python3-ntplib
   - python3-numexpr
   - python3-numpy
@@ -1596,6 +1597,7 @@ includes:
   - python3-requests-file
   - python3-requests-kerberos
   - python3-requests-mock
+  - python3-requests_ntlm
   - python3-requests-oauthlib
   - python3-retrying
   - python3-rfc3986
@@ -1695,6 +1697,7 @@ includes:
   - python3-webtest
   - python3-werkzeug
   - python3-whoosh
+  - python3-winrm
   - python3-wrapt
   - python3-wsaccel
   - python3-wsgi_intercept
