@@ -96,6 +96,8 @@ includes:
   - ccache
   - cdparanoia-libs
   - celt051
+  - ceph
+  - ceph-.*
   - certmonger
   - cfitsio
   - checkpolicy
@@ -334,6 +336,7 @@ includes:
   - google-droid-sans-fonts
   - google-roboto-slab-fonts
   - go-srpm-macros
+  - gperftools-libs
   - gpgme
   - graphite2
   - graphviz
@@ -439,6 +442,7 @@ includes:
   - lcms2
   - leatherman
   - less
+  - leveldb
   - libacl
   - libaec
   - libaio
@@ -457,6 +461,7 @@ includes:
   - libcacard
   - libcap
   - libcap-ng
+  - libcephfs.*
   - libcgroup
   - libcollection
   - libcom_err
@@ -567,7 +572,7 @@ includes:
   - libqhull
   - libquadmath
   - libquadmath-devel
-  - librados2
+  - librados.*
   - librbd1
   - librdkafka
   - librdmacm
@@ -579,6 +584,7 @@ includes:
   - libreport-plugin-reportuploader
   - libreport-python3
   - libreport-web
+  - librgw.*
   - librsvg2
   - libseccomp
   - libsecret
@@ -624,6 +630,7 @@ includes:
   - libtool-ltdl
   - libubsan
   - libunistring
+  - libunwind
   - libusal
   - libusb
   - libusbx
@@ -957,6 +964,7 @@ includes:
   - python2-aniso8601
   - python2-ansible-runner
   - python2-anyjson
+  - python2-apipkg
   - python2-appdirs
   - python2-APScheduler
   - python2-asn1crypto
@@ -984,6 +992,7 @@ includes:
   - python2-certifi
   - python2-cffi
   - python2-chardet
+  - python2-cherrypy
   - python2-click
   - python2-cliff
   - python2-cmd2
@@ -1024,6 +1033,7 @@ includes:
   - python2-elasticsearch
   - python2-enum34
   - python2-entrypoints
+  - python2-execnet
   - python2-extras
   - python2-falcon
   - python2-fasteners
@@ -1197,6 +1207,7 @@ includes:
   - python2-pyyaml
   - python2-qpid-proton
   - python2-redis
+  - python2-remoto
   - python2-reportlab
   - python2-repoze-lru
   - python2-repoze-who
@@ -1335,6 +1346,7 @@ includes:
   - python3-cairo
   - python3-cassandra-driver
   - python3-castellan
+  - python3-ceph.*
   - python3-certifi
   - python3-cffi
   - python3-chardet
@@ -1602,6 +1614,7 @@ includes:
   - python3-requests-oauthlib
   - python3-retrying
   - python3-rfc3986
+  - python3-rgw
   - python3-rjsmin
   - python3-routes
   - python3-rpm
@@ -1737,6 +1750,7 @@ includes:
   - python3-zmq
   - python3-zope-event
   - python3-zope-interface
+  - python-cephfs
   - python-django-bash-completion
   - python-matplotlib-data
   - python-matplotlib-data-fonts
@@ -1746,6 +1760,7 @@ includes:
   - python-oslo-utils-lang
   - python-rados
   - python-rbd
+  - python-rgw
   - python-rpm-macros
   - python-ryu-common
   - python-srpm-macros
@@ -1769,6 +1784,8 @@ includes:
   - quota-nls
   - rabbitmq-server
   - radvd
+  - rados-objclass-devel
+  - rbd.*
   - rdma-core
   - readline
   - redhat-lsb-core
@@ -1983,6 +2000,7 @@ includes:
   - xmlrpc-c-client
   - xmlsec1
   - xmlsec1-openssl
+  - xmlstarlet
   - xorg-x11-fonts-ISO8859-1-100dpi
   - xorg-x11-fonts-Type1
   - xorg-x11-font-utils
@@ -2026,4 +2044,7 @@ includes:
   - zstd
 
 excludes:
+  - .*debuginfo
+  - cephfs-java
+  - libcephfs_jni.*
 
