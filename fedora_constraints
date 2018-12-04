@@ -37,6 +37,7 @@ includes:
   - bash
   - bash-completion
   - bc
+  - bind
   - bind-export-libs
   - bind-libs
   - bind-libs-lite
