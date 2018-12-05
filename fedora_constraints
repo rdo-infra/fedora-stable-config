@@ -1181,6 +1181,7 @@ includes:
   - python2-pycodestyle
   - python2-pycparser
   - python2-pycurl
+  - python2-pydot
   - python2-pydotplus
   - python2-pyeclib
   - python2-pyflakes
@@ -1566,6 +1567,7 @@ includes:
   - python3-pycparser
   - python3-pycurl
   - python3-pydbus
+  - python3-pydot
   - python3-pydotplus
   - python3-pyflakes
   - python3-pygal
