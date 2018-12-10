@@ -20,6 +20,7 @@ builds:
   - python-gabbi-1.42.1-2.fc28
   - atomic-1.22.1-5.git2fd0860.fc29
   - python-kombu-4.2.1-1.fc29
+  - podman-0.12.1.1-1.git66d3499.fc28
 
 arches:
   - noarch
