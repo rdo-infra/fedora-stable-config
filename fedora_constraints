@@ -133,6 +133,8 @@ includes:
   - cpio
   - cpp
   - cpp-hocon
+  - cppunit
+  - cppunit-devel
   - cracklib
   - cracklib-dicts
   - createrepo
