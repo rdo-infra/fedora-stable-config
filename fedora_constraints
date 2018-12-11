@@ -1656,6 +1656,7 @@ includes:
   - python3-snowballstemmer
   - python3-sphinx-argparse
   - python3-sphinxcontrib-actdiag
+  - python3-sphinxcontrib-blockdiag
   - python3-sphinxcontrib-httpdomain
   - python3-sphinxcontrib-programoutput
   - python3-sphinxcontrib-seqdiag
