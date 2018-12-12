@@ -842,6 +842,8 @@ includes:
   - openssl-libs
   - openssl-pkcs11
   - openvswitch
+  - openwsman-python
+  - openwsman-python3
   - opus
   - orc
   - os-prober
