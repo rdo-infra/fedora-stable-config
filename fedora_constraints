@@ -155,6 +155,7 @@ includes:
   - cyrus-sasl
   - cyrus-sasl-gssapi
   - cyrus-sasl-lib
+  - cyrus-sasl-plain
   - dbus
   - dbus-glib
   - dbus-libs
@@ -676,6 +677,7 @@ includes:
   - libwayland-server
   - libwbclient
   - libwebp
+  - libwebsockets
   - libwmf-lite
   - libwsman1
   - libX11
@@ -1788,6 +1790,8 @@ includes:
   - qemu-kvm
   - qemu-system-x86
   - qemu-system-x86-core
+  - qpid-dispatch-router
+  - qpid-dispatch-tools
   - qpid-proton-c
   - qrencode-libs
   - qt5-srpm-macros
