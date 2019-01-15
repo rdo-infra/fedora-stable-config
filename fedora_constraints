@@ -193,6 +193,7 @@ includes:
   - docker-rhel-push-plugin
   - dosfstools
   - doxygen
+  - dpdk
   - dpkg
   - dracut
   - dracut-config-generic
