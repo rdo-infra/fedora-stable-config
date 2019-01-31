@@ -1438,6 +1438,7 @@ includes:
   - python3-google-api-client
   - python3-google-auth
   - python3-gpg
+  - python3-pygraphviz
   - python3-greenlet
   - python3-gssapi
   - python3-gunicorn
