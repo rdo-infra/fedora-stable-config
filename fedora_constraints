@@ -278,6 +278,8 @@ includes:
   - fuse
   - fuse-common
   - fuse-libs
+  - fuse-overlayfs
+  - fuse3-libs
   - galera
   - gawk
   - gc
