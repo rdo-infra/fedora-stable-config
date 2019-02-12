@@ -1637,6 +1637,7 @@ includes:
   - python3-rpm-macros
   - python3-rsa
   - python3-rtslib
+  - python3-ruamel-yaml
   - python3-ryu
   - python3-scales
   - python3-schedutils
