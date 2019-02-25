@@ -425,6 +425,7 @@ includes:
   - js-jquery1
   - json-c
   - json-glib
+  - jsoncpp
   - kbd
   - kbd-legacy
   - kbd-misc
@@ -580,7 +581,6 @@ includes:
   - libquadmath-devel
   - librados.*
   - librbd1
-  - librdkafka
   - librdmacm
   - libref_array
   - librepo
@@ -723,6 +723,7 @@ includes:
   - libzstd
   - linux-atm-libs
   - linux-firmware
+  - linux-firmware-whence
   - lksctp-tools
   - lldpad
   - lmdb-libs
@@ -1044,6 +1045,7 @@ includes:
   - python2-execnet
   - python2-extras
   - python2-falcon
+  - python2-fastavro
   - python2-fasteners
   - python2-fixtures
   - python2-flake8
@@ -1253,6 +1255,7 @@ includes:
   - python2-six
   - python2-smartcols
   - python2-smmap
+  - python2-snappy
   - python2-snowballstemmer
   - python2-sphinx-argparse
   - python2-sphinxcontrib-actdiag
@@ -1418,6 +1421,7 @@ includes:
   - python3-exabgp
   - python3-extras
   - python3-falcon
+  - python3-fastavro
   - python3-fastcache
   - python3-fasteners
   - python3-firewall
