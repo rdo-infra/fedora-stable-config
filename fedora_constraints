@@ -2000,6 +2000,7 @@ includes:
   - timedatex
   - tix
   - tk
+  - tmpwatch
   - traceroute
   - trousers
   - trousers-lib
