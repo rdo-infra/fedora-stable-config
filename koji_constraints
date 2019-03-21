@@ -23,6 +23,7 @@ builds:
   - podman-0.12.1.1-1.git66d3499.fc28
   - golang-github-vbatts-tar-split-0.11.1-1.fc29
   - qpid-proton-0.26.0-1.fc28
+  - python-alembic-1.0.7-1.fc28
 
 arches:
   - noarch
