@@ -1823,6 +1823,7 @@ includes:
   - qemu-common
   - qemu-img
   - qemu-kvm
+  - qemu-kvm-core
   - qemu-system-x86
   - qemu-system-x86-core
   - qpid-dispatch-router
