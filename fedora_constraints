@@ -415,6 +415,7 @@ includes:
   - jasper-libs
   - java-1.8.0-openjdk
   - java-1.8.0-openjdk-headless
+  - java-latest-openjdk-headless
   - java-openjdk-headless
   - javapackages-tools
   - jbig2dec-libs
