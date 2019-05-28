@@ -1796,6 +1796,7 @@ includes:
   - python3-yaql
   - python3-yubico
   - python3-zake
+  - python3-zeroconf
   - python3-zmq
   - python3-zope-event
   - python3-zope-interface
