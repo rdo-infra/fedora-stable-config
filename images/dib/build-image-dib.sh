@@ -47,8 +47,7 @@ fi
 
 # Install required software
 
-sudo wget https://trunk.rdoproject.org/centos7-master/delorean-deps.repo -O /etc/yum.repos.d/delorean-deps.repo
-sudo wget https://trunk.rdoproject.org/centos7-master/current-passed-ci/delorean.repo -O /etc/yum.repos.d/delorean.repo
+sudo yum -y install centos-release-openstack-stein
 
 sudo yum -y install diskimage-builder
 
