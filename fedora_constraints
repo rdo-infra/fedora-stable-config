@@ -302,6 +302,7 @@ includes:
   - gettext-common-devel
   - gettext-devel
   - gettext-libs
+  - gflags
   - ghc-srpm-macros
   - ghostscript
   - giflib
@@ -348,6 +349,9 @@ includes:
   - graphviz
   - grep
   - groff-base
+  - grpc
+  - grpc-cli
+  - grpc-plugins
   - grub2-common
   - grub2-pc
   - grub2-pc-modules
@@ -960,6 +964,12 @@ includes:
   - postgresql-libs
   - procps-ng
   - proj
+  - protobuf
+  - protobuf-compiler
+  - protobuf-devel
+  - protobuf-lite
+  - protobuf-lite-static
+  - protobuf-static
   - protobuf-c
   - psmisc
   - publicsuffix-list-dafsa
@@ -1462,6 +1472,7 @@ includes:
   - python3-gpg
   - python3-pygraphviz
   - python3-greenlet
+  - python3-grpcio
   - python3-gssapi
   - python3-gunicorn
   - python3-hawkey
@@ -1597,6 +1608,7 @@ includes:
   - python3-posix_ipc
   - python3-prettytable
   - python3-prompt_toolkit
+  - python3-protobuf
   - python3-psutil
   - python3-psycopg2
   - python3-ptyprocess
