@@ -8,3 +8,7 @@ excludes:
   - skopeo-containers
   - skopeo-debuginfo
   - skopeo-debugsource
+  - protobuf-java-util
+  - protobuf-vim
+  - protobuf-emacs
+  - protobuf-emacs-el
