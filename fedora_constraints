@@ -1607,6 +1607,7 @@ includes:
   - python3-positional
   - python3-posix_ipc
   - python3-prettytable
+  - python3-prometheus_client
   - python3-prompt_toolkit
   - python3-protobuf
   - python3-psutil
