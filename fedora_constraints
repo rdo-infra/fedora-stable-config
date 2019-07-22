@@ -1281,6 +1281,7 @@ includes:
   - python2-snowballstemmer
   - python2-sphinx-argparse
   - python2-sphinxcontrib-actdiag
+  - python2-sphinxcontrib-blockdiag
   - python2-sphinxcontrib-httpdomain
   - python2-sphinxcontrib-programoutput
   - python2-sphinxcontrib-seqdiag
