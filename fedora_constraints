@@ -1,5 +1,6 @@
 ---
 includes:
+  - aajohan-comfortaa-fonts
   - acl
   - adobe-mappings-cmap
   - adobe-mappings-cmap-deprecated
@@ -14,8 +15,10 @@ includes:
   - apr-util
   - armadillo
   - arpack
+  - aspell
   - at
   - atk
+  - atkmm
   - atlas
   - atomic-registries
   - at-spi2-atk
@@ -32,6 +35,7 @@ includes:
   - autofs
   - autogen-libopts
   - automake
+  - avahi-glib
   - avahi-libs
   - basesystem
   - bash
@@ -91,6 +95,7 @@ includes:
   - ca-certificates
   - cairo
   - cairo-gobject
+  - cairomm
   - capstone
   - c-ares
   - ccache
@@ -159,6 +164,7 @@ includes:
   - dbus
   - dbus-glib
   - dbus-libs
+  - dconf
   - debootstrap
   - dejavu-fonts-common
   - dejavu-sans-fonts
@@ -281,9 +287,11 @@ includes:
   - fuse-overlayfs
   - fuse3-libs
   - galera
+  - gamin
   - gawk
   - gc
   - gcc
+  - gcr
   - gd
   - gdal-libs
   - gdal-python3
@@ -295,6 +303,7 @@ includes:
   - gdk-pixbuf2-modules
   - generic-release
   - genisoimage
+  - GConf2
   - GeoIP
   - GeoIP-GeoLite-data
   - geos
@@ -319,6 +328,7 @@ includes:
   - glibc-langpack-en
   - glibc-static
   - glib-networking
+  - glibmm24
   - glusterfs
   - glusterfs-api
   - glusterfs-cli
@@ -329,6 +339,8 @@ includes:
   - gmp-c\+\+
   - gmp-devel
   - gnat-srpm-macros
+  - gnome-vfs2
+  - gnome-vfs2-common
   - gnupg
   - gnupg2
   - gnupg2-smime
@@ -362,14 +374,19 @@ includes:
   - grubby
   - gsettings-desktop-schemas
   - gsm
+  - gsl
   - gssproxy
   - gstreamer1
   - gstreamer1-plugins-base
   - gtk2
   - gtk3
   - gtk-update-icon-cache
+  - gtkmm24
+  - gtkspell
   - gts
   - guile
+  - gvfs
+  - gvfs-client
   - gzip
   - haproxy
   - hardlink
@@ -392,9 +409,11 @@ includes:
   - ilmbase
   - ima-evm-utils
   - ImageMagick
+  - ImageMagick-c\+\+
   - ImageMagick-libs
   - info
   - initscripts
+  - inkscape
   - intltool
   - iotop
   - ipa-pgothic-fonts
@@ -464,15 +483,28 @@ includes:
   - libasan
   - libassuan
   - libasyncns
+  - libatasmart
   - libatomic
   - libatomic_ops
   - libattr
   - libbabeltrace
   - libbasicobjects
+  - libblockdev
+  - libblockdev-crypto
+  - libblockdev-fs
+  - libblockdev-loop
+  - libblockdev-mdraid
+  - libblockdev-part
+  - libblockdev-swap
+  - libblockdev-utils
   - libblkid
+  - libbluray
+  - libbytesize
   - libcacard
   - libcap
   - libcap-ng
+  - libcdio
+  - libcdio-paranoia
   - libcephfs.*
   - libcgroup
   - libcollection
@@ -520,6 +552,7 @@ includes:
   - libgpg-error-devel
   - libgs
   - libgta
+  - libgudev
   - libguestfs
   - libgusb
   - libibverbs
@@ -595,6 +628,7 @@ includes:
   - libreport-plugin-reportuploader
   - libreport-python3
   - libreport-web
+  - librevenge
   - librgw.*
   - librsvg2
   - libseccomp
@@ -607,6 +641,7 @@ includes:
   - libsepol
   - libsepol-devel
   - libserf
+  - libsigc\+\+20
   - libsigsegv
   - libSM
   - libsmartcols
@@ -616,6 +651,7 @@ includes:
   - libsolv
   - libsoup
   - libspatialite
+  - librsvg2-tools
   - libss
   - libssh
   - libssh2
@@ -640,6 +676,7 @@ includes:
   - libtommath
   - libtool-ltdl
   - libubsan
+  - libudisks2
   - libunistring
   - libunwind
   - libusal
@@ -687,6 +724,8 @@ includes:
   - libwebp
   - libwebsockets
   - libwmf-lite
+  - libwpd
+  - libwpg
   - libwsman1
   - libX11
   - libX11-common
@@ -821,6 +860,7 @@ includes:
   - nss-tools
   - nss-util
   - ntfs-3g
+  - ntfs-3g-system-compression
   - ntfsprogs
   - ntp
   - ntpdate
@@ -872,6 +912,7 @@ includes:
   - pacemaker-remote
   - pam
   - pango
+  - pangomm
   - parted
   - passwd
   - patch
@@ -960,8 +1001,10 @@ includes:
   - polkit-pkla-compat
   - poppler
   - poppler-data
+  - poppler-glib
   - popt
   - postgresql-libs
+  - potrace
   - procps-ng
   - proj
   - protobuf
@@ -1261,6 +1304,7 @@ includes:
   - python2-scales
   - python2-schedutils
   - python2-scipy
+  - python2-scour
   - python2-scp
   - python2-scrypt
   - python2-SecretStorage
@@ -1565,6 +1609,7 @@ includes:
   - python3-nose
   - python3-nose-exclude
   - python3-ntlm-auth
+  - python3-ntlm3
   - python3-ntplib
   - python3-numexpr
   - python3-numpy
@@ -1711,8 +1756,11 @@ includes:
   - python3-sphinxcontrib-actdiag
   - python3-sphinxcontrib-blockdiag
   - python3-sphinxcontrib-httpdomain
+  - python3-sphinxcontrib-inkscapeconverter
   - python3-sphinxcontrib-programoutput
+  - python3-sphinxcontrib-rsvgconverter
   - python3-sphinxcontrib-seqdiag
+  - python3-sphinxcontrib-svg2pdfconverter-common
   - python3-sphinxcontrib-websupport
   - python3-sphinx_rtd_theme
   - python3-sphinx-testing
@@ -2007,6 +2055,7 @@ includes:
   - texlive-metafont
   - texlive-metafont-bin
   - texlive-texconfig
+  - texlive-texconfig-bin
   - texlive-tetex
   - texlive-tetex-bin
   - texlive-texlive.infra
@@ -2026,7 +2075,9 @@ includes:
   - tuned
   - tzdata
   - tzdata-java
+  - udisks2
   - unbound-libs
+  - uniconvertor
   - unixODBC
   - unzip
   - uriparser
@@ -2051,6 +2102,7 @@ includes:
   - vim-minimal
   - virglrenderer
   - virt-what
+  - volume_key-libs
   - vte291
   - vte-profile
   - web-assets-filesystem
